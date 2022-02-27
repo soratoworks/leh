@@ -120,10 +120,10 @@
 </a>
 </div>
 
-<!-- iconam  -->
+<!-- YURAGI  -->
 <div class="stockist_content_text">
 <a href="https://goo.gl/maps/Qxaw1uxkp6YsEDAJA">
-<div class="shopname">iconam</div>
+<div class="shopname">YURAGI</div>
 <div class="shopinfo">29-4 Wakadocho,Hirosaki-shi,Aomori 036-8333 Japan / TEL. 0172-88-8924</div>
 </a>
 </div>
@@ -134,6 +134,14 @@
 
 <div class="shopname">Heg</div>
 <div class="shopinfo">https://www.hegood.jp/</div>
+</div>
+
+<!--  SAIZ  -->
+<div class="stockist_content_text">
+<a href="https://goo.gl/maps/AwizNBSyz75CnUfa7">
+<div class="shopname">SAIZ</div>
+<div class="shopinfo">Nishiide, Oizumi-Cho, Hokuto-Shi, Yamanashi 409-1501 Japan / TEL.0551-45-6496</div>
+</a>
 </div>
 
 <!--  OVIE STUDIO  -->
@@ -165,6 +173,14 @@
 <a href="https://goo.gl/maps/NdFgJstHnQzZdHPg9">
 <div class="shopname">Sieni</div>
 <div class="shopinfo">KMT Bldg 2F D 2-1-38 Obiyamachi Kochi-Shi Kochi 780-0841 Japan / TEL.088-803-6450</div>
+</a>
+</div>
+
+<!--  Double Soul 	  -->
+<div class="stockist_content_text">
+<a href="https://goo.gl/maps/tavJvnNvJwRGhiNdA">
+<div class="shopname">Double Soul</div>
+<div class="shopinfo">KRISS BLD. B1, 1-1-8 Uomachi, Kokurakita-Ku, Kitakyushu-Shi, Fukuoka 802-0066 Japan. / TEL.093-551-6765</div>
 </a>
 </div>
 

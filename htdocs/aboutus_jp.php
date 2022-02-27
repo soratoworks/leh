@@ -224,9 +224,15 @@
         2020年　LEH 2021 Spring and Summer Collection Exhibition 「服食人種」<br>
         @tentplant　(東京/渋谷) <br>
         <br>
-		2021年　LEH 2021-22 Autumn and Winter Collection Exhibition 「BEAT Meditation」<br>
-		＠KATA (東京/渋谷）
-		<br><br>
+		2021年　SENSE OF LIVING by Leh「tabino kakera ten」Exhibition with Party <br>
+		@Cream (東京/下北沢）
+		<br>
+		<br>
+		2022年　LEH 2022 Spring and Summer Collection Exhibition「LONELY PLANET」<br>
+		@KATA (東京/恵比寿）
+		<br>
+		<br>
+		
 		</div>
 		
 		

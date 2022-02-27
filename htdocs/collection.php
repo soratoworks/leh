@@ -45,8 +45,12 @@
 
 		<div id="collection_img_this_season2018ss">
 
-			<a href="collection/21aw/index.html" class="imghover_collection">
-            	<img src="lib/img/collection/21aw/ent_21aw.jpg" alt="2021 spring / summer" width="759" border="0" />
+			<a href="collection/22ss/index.html" class="imghover_collection">
+            	<img src="lib/img/collection/22ss/ent_22ss.jpg" alt="2022 spring / summer" width="759" border="0" />
+
+			<!-- <a href="collection/22aw/index.html" class="imghover_collection">
+            	<img src="lib/img/collection/22aw/ent_22aw.jpg" alt="2022 Autumn / Winter" width="759" border="0" />
+			-->
 			</a>
 
        	</div>
@@ -61,8 +65,16 @@
 		<div id="collection_past03">
             
 		<div class="collection_img_01_past">
+            	<a href="collection/21aw/index.html" class="imghover_collection">
+            	<img src="lib/img/collection/21aw/ent_21aw.jpg" alt="2021 Autumn / Winter" height="130" border="0" />
+				</a>
+				<br />
+				21 A/W
+			</div>
+
+			<div class="collection_img_01_past">
             	<a href="collection/21ss/index.html" class="imghover_collection">
-            	<img src="lib/img/collection/21ss/ent_21ss.jpg" alt="2020 Autumn / Winter" height="130" border="0" />
+            	<img src="lib/img/collection/21ss/ent_21ss.jpg" alt="2021 spring / summer" height="130" border="0" />
 				</a>
 				<br />
 				21 S/S
