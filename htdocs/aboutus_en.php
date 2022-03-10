@@ -282,7 +282,14 @@
 		2021<br />
 		LEH 2021-22 Autumn and Winter Collection Exhibition <br />
 		「BEAT Meditation」<br />
-		@KATA/Tokyo<br><br>
+		@KATA/Tokyo<br>
+		<br>
+		SENSE OF LIVING by Leh「tabino kakera ten」Exhibition with Party <br>
+		@Cream/Tokyo
+		<br><br>
+		2022<br />
+		LEH 2022 Spring and Summer Collection Exhibition「LONELY PLANET」<br>
+		@KATA/Tokyo<br>
 		</div>
 		
 		
