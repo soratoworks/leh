@@ -19,6 +19,7 @@
     
 <link rel="stylesheet" type="text/css" href="lib/css/import.css">
 <link rel="stylesheet" type="text/css" href="lib/css/collection.css">
+<link href="css/css_white.css" rel="stylesheet" type="text/css" media="all" />
 
 <!-- Bootstrap CSS -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -26,6 +27,7 @@
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css" rel="stylesheet">
     <script src="http://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link href="css/css_white_2018aw.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/menu.css" rel="stylesheet" type="text/css" media="all" />
 <link rel="stylesheet" type="text/css" href="lib/css/import.css">
 
@@ -70,7 +72,7 @@
 <body>
 
 <div id="container">
-
+<div id="wrapper_memo">
 <!-- 左側メニューここから -->
 <!-- menuここから -->
 		<?php
@@ -81,7 +83,8 @@
 			include "menu_header.php";
 		?>
     <!-- /left_space -->
-  <div id="wrapper_senseofliving">
+
+    <div id="right_space">
     <h1>SENSE OF LIVING</h1>
 	<div id="slider">
       <div><img src="lib/img/senseofliving/202101/001.jpg" alt="" /></div>
@@ -164,10 +167,10 @@
     </div>
 
 <!--FOOTERここまで-->
+</div><!--/#right space-->
 </div><!--/#wrapper-->
 </div><!--/#container-->
 <script src="lib/js/lightbox-2.6.min.js"></script>
 <script type="text/javascript" src="js/menu.js"></script>
-
 </body>
 </html>
