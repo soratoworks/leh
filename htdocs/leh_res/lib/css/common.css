@@ -127,16 +127,12 @@ nav {
     display: block;
     position: fixed;
     top: 0;
-    left: -300px;
-    bottom: 0;
+     bottom: 0;
     width: 300px;
     background: #ffffff;
-    overflow-x: hidden;
-    overflow-y: auto;
-    -webkit-overflow-scrolling: touch;
+      -webkit-overflow-scrolling: touch;
     transition: all .5s;
     z-index: 52;
-    opacity: 0;
   }
   .open nav {
     left: 0;
