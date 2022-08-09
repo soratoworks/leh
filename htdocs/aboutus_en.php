@@ -2,49 +2,69 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>LEH -ABOUT US-</title>
 <meta name="robots" content="index,follow" />
 <meta name="keywords" content="LEH" />
 <meta name="description" content="The official website of Leh" />
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/css_white.css" rel="stylesheet" type="text/css" media="all" />
-<link rel="stylesheet" type="text/css" href="lib/css/import.css">
-<link rel="stylesheet" type="text/css" href="lib/css/top.css">
-        <!-- ファビコン -->
+<link href="lib/css/common.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/menu.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/css_white_2018aw.css" rel="stylesheet" type="text/css" media="all" />
+
+ <!-- ファビコン -->
 <link rel="icon" href="common/img/favicon.ico">
  
-<!-- スマホ用アイコン -->
-<link rel="apple-touch-icon" sizes="180x180" href="common/img/apple-touch-icon.png">
-</head>
+ <!-- スマホ用アイコン -->
+ <link rel="apple-touch-icon" sizes="180x180" href="common/img/apple-touch-icon.png">
+ <!-- Bootstrap CSS -->
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+	 <link href="css/bootstrap.css" rel="stylesheet">
+	 <link href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css" rel="stylesheet">
+	 <script src="http://code.jquery.com/jquery-3.6.0.min.js"></script>
+	 <link rel="stylesheet" type="text/css" href="lib/css/import.css">
+<link rel="stylesheet" type="text/css" href="lib/css/top.css">
+ 
+	 <!-- Optional JavaScript; choose one of the two! -->
+ 
+	 <!-- Option 1: Bootstrap Bundle with Popper -->
+	 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+ 
+	 <!-- Option 2: Separate Popper and Bootstrap JS -->
+	 <!--
+	 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+	 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+	 -->
+ 
+ </head>
 
 <body>
+<div id="container">
+<div id="wrapper_memo">
 
-<div id="wrapper_aboutus">
-	
 <!-- 左側メニューここから -->
 <!-- menuここから -->
-
-<div id="gnav-aboutus">
- <a href="aboutus_jp.php">
-  <img src="lib/img/com/aboutus_jp.png" alt="about us japanese" width="118px" height="27px" />
- </a>
-</div>
-		<?php
+<?php
 			include "left_menu.php";
 		?>
 
-    
+		<?php
+			include "menu_header.php";
+		?>
     <!-- /left_space -->
 
 	
 <!-- 右側コンテンツここから -->	
 	<div id="right_space">
-	
+<h1 class="about-us">ABOUT US</h1>
+<a href="aboutus_jp.php"><p class="change-la">Japanese</p></a>
 		<div class="content_text">
 			brand name ： LEH ( leˈ )<br />
 			<br />
-			ZIP : 154-0023<br />
-			ADD : #101 4-36-9 Wakabayashi .Setagaya-Ku .Tokyo.JPN<br />
+			ZIP : 168-0062<br />
+			ADD : Kowankisonnu #201 2-11-2 Hounan. Suginami-Ku .Tokyo. JPN<br />
 			<br />
 			designer：  Takuya Mikami　( mikami @ leh.jp )<br />
 		</div>
@@ -290,10 +310,15 @@
 		2022<br />
 		LEH 2022 Spring and Summer Collection Exhibition「LONELY PLANET」<br>
 		@KATA/Tokyo<br>
+		<br>
+		LEH 2022-23 autumn and Winter Collection Exhibition「My Your Religion」<br>
+		@KATA/Tokyo<br>
+		</div>
 		</div>
 		
 		
-	</div> <!-- /right_space -->
+		</div> <!-- /right_space -->
+	</div> <!-- /container -->
 
 <br clear="all">
 
@@ -317,8 +342,6 @@
 <!--   解析用  -->
 
 </div> <!-- /wrapper_aboutus -->
-	
-
-
+<script type="text/javascript" src="js/menu.js"></script>
 </body>
 </html>

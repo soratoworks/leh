@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="jp">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -25,328 +25,519 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     -->
 
-    <title>税理士クラウド</title>
+    <title>LEH</title>
+<link rel="stylesheet" type="text/css" href="lib/css/import.css">
+<link rel="stylesheet" type="text/css" href="lib/css/top.css">
+<link rel="stylesheet" href="lib/css/colorbox.css"> 
 
+<!-- ファビコン -->
+<link rel="icon" href="common/img/favicon.ico">
+ 
+<!-- スマホ用アイコン -->
+<link rel="apple-touch-icon" sizes="180x180" href="common/img/apple-touch-icon.png">
+    
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="lib/js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript">
+      $(function(){
+        var $setElm = $('.wideslider'),
+        baseWidth = 600,
+        baseHeight = 600,
+      
+        slideSpeed = 500,
+        delayTime = 5000,
+        easing = 'linear',
+      
+        autoPlay = '1', // notAutoPlay = '0'
+      
+        btnOpacity = 0.8,
+        pnOpacity = 0.8;
+      
+        $setElm.each(function(){
+          var targetObj = $(this);
+          var widesliderWidth = baseWidth;
+          var widesliderHeight = baseHeight;
+          targetObj.children('ul').wrapAll('<div class="wideslider_base"><div class="wideslider_wrap"></div><div class="slider_prev"></div><div class="slider_next"></div></div>');
+      
+          var findBase = targetObj.find('.wideslider_base');
+          var findWrap = targetObj.find('.wideslider_wrap');
+          var findPrev = targetObj.find('.slider_prev');
+          var findNext = targetObj.find('.slider_next');
+      
+          var baseListWidth = findWrap.children('ul').children('li').width();
+          var baseListCount = findWrap.children('ul').children('li').length;
+      
+          var baseWrapWidth = (baseListWidth)*(baseListCount);
+      
+          var pagination = $('<div class="pagination"></div>');
+          targetObj.append(pagination);
+          var baseList = findWrap.children('ul').children('li');
+          baseList.each(function(i){
+            $(this).css({width:(baseWidth),height:(baseHeight)});
+            pagination.append('<a href="javascript:void(0);" class="pn'+(i+1)+'"></a>');
+          });
+      
+          var pnPoint = pagination.children('a');
+          var pnFirst = pagination.children('a:first');
+          var pnLast = pagination.children('a:last');
+          var pnCount = pagination.children('a').length;
+          pnPoint.css({opacity:(pnOpacity)}).hover(function(){
+            $(this).stop().animate({opacity:'1'},300);
+          }, function(){
+            $(this).stop().animate({opacity:(pnOpacity)},300);
+          });
+          pnFirst.addClass('active');
+          pnPoint.click(function(){
+            if(autoPlay == '1'){clearInterval(wsSetTimer);}
+            var setNum = pnPoint.index(this);
+            var moveLeft = ((baseListWidth)*(setNum))+baseWrapWidth;
+            findWrap.stop().animate({left: -(moveLeft)},slideSpeed,easing);
+            pnPoint.removeClass('active');
+            $(this).addClass('active');
+            if(autoPlay == '1'){wsTimer();}
+          });
+      
+          var makeClone = findWrap.children('ul');
+          makeClone.clone().prependTo(findWrap);
+          makeClone.clone().appendTo(findWrap);
+      
+          var allListWidth = findWrap.children('ul').children('li').width();
+          var allListCount = findWrap.children('ul').children('li').length;
+      
+          var allLWrapWidth = (allListWidth)*(allListCount);
+          var windowWidth = $(window).width();
+          var posAdjust = ((windowWidth)-(baseWidth))/2;
+      
+          findBase.css({left:(posAdjust),width:(baseWidth),height:(baseHeight)});
+          findPrev.css({left:-(baseWrapWidth),width:(baseWrapWidth),height:(baseHeight),opacity:(btnOpacity)});
+          findNext.css({right:-(baseWrapWidth),width:(baseWrapWidth),height:(baseHeight),opacity:(btnOpacity)});
+          $(window).bind('resize',function(){
+            var windowWidth = $(window).width();
+            var posAdjust = ((windowWidth)-(baseWidth))/2;
+            findBase.css({left:(posAdjust)});
+            findPrev.css({left:-(posAdjust),width:(posAdjust)});
+            findNext.css({right:-(posAdjust),width:(posAdjust)});
+          });
+      
+          findWrap.css({left:-(baseWrapWidth),width:(allLWrapWidth),height:(baseHeight)});
+          findWrap.children('ul').css({width:(baseWrapWidth),height:(baseHeight)});
+      
+          var posResetNext = -(baseWrapWidth)*2;
+          var posResetPrev = -(baseWrapWidth)+(baseWidth);
+      
+          if(autoPlay == '1'){wsTimer();}
+      
+          function wsTimer(){
+            wsSetTimer = setInterval(function(){
+              findNext.click();
+            },delayTime);
+          }
+          findNext.click(function(){
+            findWrap.not(':animated').each(function(){
+              if(autoPlay == '1'){clearInterval(wsSetTimer);}
+              var posLeft = parseInt($(findWrap).css('left'));
+              var moveLeft = ((posLeft)-(baseWidth));
+              findWrap.stop().animate({left:(moveLeft)},slideSpeed,easing,function(){
+                var adjustLeft = parseInt($(findWrap).css('left'));
+                if(adjustLeft == posResetNext){
+                  findWrap.css({left: -(baseWrapWidth)});
+                }
+              });
+              var pnPointActive = pagination.children('a.active');
+              pnPointActive.each(function(){
+                var pnIndex = pnPoint.index(this);
+                var listCount = pnIndex+1;
+                if(pnCount == listCount){
+                  pnPointActive.removeClass('active');
+                  pnFirst.addClass('active');
+                } else {
+                  pnPointActive.removeClass('active').next().addClass('active');
+                }
+              });
+              if(autoPlay == '1'){wsTimer();}
+            });
+          }).hover(function(){
+            $(this).stop().animate({opacity:((btnOpacity)+0.1)},100);
+          }, function(){
+            $(this).stop().animate({opacity:(btnOpacity)},100);
+          });
+      
+          findPrev.click(function(){
+            findWrap.not(':animated').each(function(){
+              if(autoPlay == '1'){clearInterval(wsSetTimer);}
+              var posLeft = parseInt($(findWrap).css('left'));
+              var moveLeft = ((posLeft)+(baseWidth));
+              findWrap.stop().animate({left:(moveLeft)},slideSpeed,easing,function(){
+                var adjustLeft = parseInt($(findWrap).css('left'));
+                var adjustLeftPrev = (posResetNext)+(baseWidth);
+                if(adjustLeft == posResetPrev){
+                  findWrap.css({left: (adjustLeftPrev)});
+                }
+              });
+              var pnPointActive = pagination.children('a.active');
+              pnPointActive.each(function(){
+                var pnIndex = pnPoint.index(this);
+                var listCount = pnIndex+1;
+                if(1 == listCount){
+                  pnPointActive.removeClass('active');
+                  pnLast.addClass('active');
+                } else {
+                  pnPointActive.removeClass('active').prev().addClass('active');
+                }
+              });
+              if(autoPlay == '1'){wsTimer();}
+            });
+          }).hover(function(){
+            $(this).stop().animate({opacity:((btnOpacity)+0.1)},100);
+          }, function(){
+            $(this).stop().animate({opacity:(btnOpacity)},100);
+          });
+        });
+      });
+      </script>
   </head>
   <body>
-    <header>
-      <div id="navArea">
+    <div id="container">
+        <header>
+            <span><a href="index.html"><img class="menulogo" src="lib/img/menu/head_logo.png"></a></span>
+            <div id="navArea">
+      
+              <nav>
+                <div class="inner">
+                  <ul>
+                    <li><a href="#"><img src="lib/img/com/gnav_top.png" alt="TOP" /></a></li>
+                    <li><a href="collection.php"><img src="lib/img/com/gnav_collection.png" alt="COLLECTION" /></a></li>
+                    <li><a href="memo.php"><img src="lib/img/com/gnav_Journal.png" alt="JOURNAL&INFO" /></a></li>
+                    <li><a href="stockist.php"><img src="lib/img/com/gnav_stockist.png" alt="STOCKIST" /></a></li>
+                    <li><a href="senseofliving.php"><img src="lib/img/com/gnav_sol.png" alt="SENSEOFLIVING" /></a></li>
+                    <li><a href="aboutus_en.php"><img src="lib/img/com/gnav_about.png" alt="ABOUTUS" /></a></li>
+                    <li><a href="movie.php"><img src="lib/img/com/gnav_movie.png" alt="MOVIE" /></a></li>
+                    <li><a href="http://blog.leh.jp/" target="_blank"><img src="lib/img/com/gnav_note.png" alt="MEMO" /></a></li>
+                    <li><a href="https://leh.handcrafted.jp/" target="_blank"><img src="lib/img/com/gnav_onlinestore.png" alt="ONLINESTORE" /></a></li><br>
+                    <li><a href="https://instagram.com/leh__official/" target="_blank"><img src="lib/img/com/leh_instagram.png" alt="INSTAGRAM" /></a></li>
+                  </ul>
+                </div>
+              </nav>
+            
+              <div class="toggle_btn">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            
+              <div id="mask"></div>
+            
+            </div>
+          </header>
 
-        <nav>
-          <div class="inner">
+        <div id="gnav-top">
             <ul>
-              <li><a href="#">Text</a></li>
-              <li><a href="#">Text</a></li>
-              <li><a href="#">Text</a></li>
-            </ul>
-          </div>
-        </nav>
-      
-        <div class="toggle_btn">
-          <span></span>
-          <span></span>
-          <span></span>
+                <li><a href="#"><img src="lib/img/com/gnav_top.png" alt="TOP" /></a></li>
+                <li><a href="collection.php"><img src="lib/img/com/gnav_collection.png" alt="COLLECTION" /></a></li>
+                <li><a href="memo.php"><img src="lib/img/com/gnav_Journal.png" alt="JOURNAL&INFO" /></a></li>
+                <li><a href="stockist.php"><img src="lib/img/com/gnav_stockist.png" alt="STOCKIST" /></a></li>
+                <li><a href="senseofliving.php"><img src="lib/img/com/gnav_sol.png" alt="SENSEOFLIVING" /></a></li>
+                <li><a href="aboutus_en.php"><img src="lib/img/com/gnav_about.png" alt="ABOUTUS" /></a></li>
+                <li><a href="movie.php"><img src="lib/img/com/gnav_movie.png" alt="MOVIE" /></a></li>
+                <li><a href="http://blog.leh.jp/" target="_blank"><img src="lib/img/com/gnav_note.png" alt="MEMO" /></a></li>
+                <li><a href="https://leh.handcrafted.jp/" target="_blank"><img src="lib/img/com/gnav_onlinestore.png" alt="ONLINESTORE" /></a></li><br>
+                <li><a href="https://instagram.com/leh__official/" target="_blank"><img src="lib/img/com/leh_instagram.png" alt="INSTAGRAM" /></a></li>
+           </ul>
         </div>
+    
+    <!--
+      <div id="wrapper">
+        <a href="https://www.youtube.com/embed/B9glaFWwY6Y&feature=emb_logo?autoplay=1&loop=1&playlist=B9glaFWwY6Y&feature=emb_logo" target="_blank" class="colorbox"></a>
+    </div>
+    -->
+        <!-- script -->
+    <script defer src="lib/js/jquery.colorbox-min.js"></script>
+        
+    <script>
+      $(function(){
+        jQuery('.colorbox').colorbox({
+          open: true,
+          iframe: true,
+          innerWidth: 650,
+          innerHeight: 350
+        });
+      });
+    </script>
+    
+    
+    
+    <div class="wideslider">
+    <ul>
+    
+    
+    <!--22aw-->
+    <li><img src="lib/img/top/22aw/BRW5C6199186CD3_000765.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/22aw/BRW5C6199186CD3_000766.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/22aw/BRW5C6199186CD3_000767.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/22aw/BRW5C6199186CD3_000768.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/22aw/BRW5C6199186CD3_000769.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/22aw/BRW5C6199186CD3_000770.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/22aw/BRW5C6199186CD3_000771.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/22aw/BRW5C6199186CD3_000772.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/22aw/BRW5C6199186CD3_000773.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/22aw/BRW5C6199186CD3_000774.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/22aw/BRW5C6199186CD3_000775.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/22aw/BRW5C6199186CD3_000776.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/22aw/BRW5C6199186CD3_000777.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/22aw/BRW5C6199186CD3_000778.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/22aw/BRW5C6199186CD3_000779.jpg" width="600" height="600" alt="" /></li>
+
+    <!--22ss-->
+    <li><img src="lib/img/top/22ss/BRW5C6199186CD3_000359.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/22ss/BRW5C6199186CD3_000363.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/22ss/BRW5C6199186CD3_000364.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/22ss/BRW5C6199186CD3_000365.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/22ss/BRW5C6199186CD3_000368.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/22ss/BRW5C6199186CD3_000369.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/22ss/BRW5C6199186CD3_000373.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/22ss/BRW5C6199186CD3_000374.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/22ss/BRW5C6199186CD3_000375.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/22ss/BRW5C6199186CD3_000376.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/22ss/BRW5C6199186CD3_000377.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/22ss/BRW5C6199186CD3_000380.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/22ss/BRW5C6199186CD3_000382.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/22ss/BRW5C6199186CD3_000383.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/22ss/BRW5C6199186CD3_000386.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/22ss/BRW5C6199186CD3_000387.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/22ss/BRW5C6199186CD3_000388.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/22ss/BRW5C6199186CD3_000389.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/22ss/BRW5C6199186CD3_000391.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/22ss/BRW5C6199186CD3_000392.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/22ss/BRW5C6199186CD3_000393.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/22ss/BRW5C6199186CD3_000394.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/22ss/BRW5C6199186CD3_000395.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/22ss/BRW5C6199186CD3_000396.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/22ss/BRW5C6199186CD3_000397.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/22ss/BRW5C6199186CD3_000398.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/22ss/BRW5C6199186CD3_000399.jpg" width="600" height="600" alt="" /></li>
+    
+    
+    <!--
+      <li><img src="lib/img/top/202107/top_web_001.jpg" width="600" height="600" alt="" /></li>
+        <li><img src="lib/img/top/202107/top_web_002.jpg" width="600" height="600" alt="" /></li>
+    -->
+    <li><img src="lib/img/top/202107/top_web_003.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/202107/top_web_004.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/202107/top_web_005.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/202107/top_web_006.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/202107/top_web_007.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/202107/top_web_008.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/202107/top_web_009.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/202107/top_web_010.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/202107/top_web_011.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/202107/top_web_012.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/202107/top_web_013.jpg" width="600" height="600" alt="" /></li>
+    
+    <li><img src="lib/img/top/202101/001.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/202101/002.jpg" width="600" height="600" alt="" /></li>
+    <!--
+      <li><img src="lib/img/top/202101/003.jpg" width="600" height="600" alt="" /></li>
+    -->
+    <li><img src="lib/img/top/202101/004.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/202101/005.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/202101/006.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/202101/007.jpg" width="600" height="600" alt="" /></li>
+    <!--
+      <li><img src="lib/img/top/202101/008.jpg" width="600" height="600" alt="" /></li>
+    -->
+    <li><img src="lib/img/top/202101/009.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/202101/010.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/202101/011.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/202101/012.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/202101/013.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/202101/014.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/202101/015.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/202101/016.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/202101/017.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/202101/018.jpg" width="600" height="600" alt="" /></li>
+        
+    <li><img src="lib/img/top/202008/webtop_001.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/202008/webtop_002.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/202008/webtop_004.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/202008/webtop_005.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/202008/webtop_006.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/202008/webtop_007.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/202008/webtop_008.jpg" width="600" height="600" alt="" /></li>
+        
+    <!--
+      <li><img src="lib/img/top/202002/webtop_001.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/202002/webtop_002.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/202002/webtop_003.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/202002/webtop_004.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/202002/webtop_005.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/202002/webtop_006.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/202002/webtop_007.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/202002/webtop_008.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/202002/webtop_009.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/202002/webtop_010.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/202002/webtop_011.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/202002/webtop_012.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/202002/webtop_013.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/202002/webtop_014.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/202002/webtop_015.jpg" width="600" height="600" alt="" /></li>
+        
+    
+    <li><img src="lib/img/top/201908/webtop_001.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/201908/webtop_002.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/201908/webtop_003.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/201908/webtop_004.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/201908/webtop_005.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/201908/webtop_006.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/201908/webtop_007.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/201908/webtop_008.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/201908/webtop_009.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/201908/webtop_010.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/201908/webtop_012.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/201908/webtop_013.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/201908/webtop_014.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/201908/webtop_015.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/201908/webtop_016.jpg" width="600" height="600" alt="" /></li>-->
+    <!--   
+    <li><img src="lib/img/top/201903/webtop_001.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/201903/webtop_002.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/201903/webtop_003.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/201903/webtop_004.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/201903/webtop_005.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/201903/webtop_006.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/201903/webtop_007.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/201903/webtop_008.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/201903/webtop_009.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/201903/webtop_010.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/201903/webtop_011.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/201903/webtop_012.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/201903/webtop_013.jpg" width="600" height="600" alt="" /></li>
+    -->
+    <li><img src="lib/img/top/201903/webtop_014.jpg" width="600" height="600" alt="" /></li>
+    
+    <!--
+    <li><img src="lib/img/top/201903/webtop_015.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/201903/webtop_016.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/201903/webtop_017.jpg" width="600" height="600" alt="" /></li>
+    -->
+        
+    <!--
+    <li><img src="lib/img/top/201802/topimg015.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/201802/topimg002.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/201802/topimg001.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/201802/topimg005.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/201802/topimg003.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/201802/topimg000.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/201802/topimg012.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/201802/topimg016.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/201802/topimg004.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/201802/topimg013.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/201802/topimg006.jpg" width="600" height="600" alt="" /></li>
+    
+    
+    
+    <li><img src="lib/img/top/2017aw_topimg01.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/2017aw_topimg03.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/2017aw_topimg04.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/2017aw_topimg05.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/2017aw_topimg07.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/2017aw_topimg08.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/2017aw_topimg09.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/2017aw_topimg10.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/2017aw_topimg11.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/2017aw_topimg12.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/2017aw_topimg13.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/2017aw_topimg14.jpg" width="600" height="600" alt="" /></li>
+    
+    
+    <li><img src="lib/img/top/2017INDIA_AFRICA_25.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/2017INDIA_AFRICA_118.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/2017INDIA_AFRICA_53" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/2017INDIA_AFRICA_103.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/2017INDIA_AFRICA_09.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/2017INDIA_AFRICA_31.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/2017INDIA_AFRICA_136.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/2017INDIA_AFRICA_59.jpg" width="600" height="600" alt="" /></li>
+    
+    
+    
+    
+    <li><img src="lib/img/top/201608/topimg008.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/201608/topimg011.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/201608/topimg012.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/201608/topimg013.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/201608/topimg015.jpg" width="600" height="600" alt="" /></li>
+    
+    
+    
+    
+    <li><img src="lib/img/top/201601/topimg029.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/201601/topimg034.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/201508/topimg003.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/201508/topimg005.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/201508/topimg013.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/201508/topimg009.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/201508/topimg004.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/201508/topimg008.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/201508/topimg010.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/201508/topimg023.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/topimg_68.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/201401/topimg_05.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/201407/topimg_20.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/topimg_04.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/topimg_16.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/topimg_25.jpg" width="600" height="600" alt="" /></li>
+    
+    <li><img src="lib/img/top/2017INDIA_AFRICA_73.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/201608/topimg022.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/201508/topimg014.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/201608/topimg009.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/201508/topimg007.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/201608/topimg004.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/201608/topimg001.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/topimg_24.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/201407/topimg_17.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/201407/topimg_16.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/201407/topimg_15.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/topimg_05.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/201407/topimg_08.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/201407/topimg_14.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/201407/topimg_07.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/201401/topimg_06.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/201407/topimg_13.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/201407/topimg_01.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/topimg_64.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/topimg_66.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/topimg_67.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/2017aw_topimg06.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/2017INDIA_AFRICA_106.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/201508/topimg001.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/201608/topimg003.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/201608/topimg006.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/201608/topimg016.jpg" width="600" height="600" alt="" /></li>
+    <li><img src="lib/img/top/201601/topimg026.jpg" width="600" height="600" alt="" /></li>-->
+    
+    
+    </ul>
+    </div><!--/.wideslider-->
+    
+    
+    
+    <!--FOOTERここから-->
       
-        <div id="mask"></div>
-      
-      </div>
-    </header>
-
-    <nav class="nav">
-      <a class="nav-link active" aria-current="page" href="#">Active</a>
-      <a class="nav-link" href="#">Link</a>
-      <a class="nav-link" href="#">Link</a>
-      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-    </nav>
-<!--
- <div class="container">税理士クラウド
-    <i class="bi bi-alarm" style="font-size: 2rem; color: rgb(0, 0, 0);"></i>
-</div>
--->
-
-<div class="container-fluid"><!-- コンテンツサイズ-->
-<div id="carouselSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="assets/images/bs-images/key01.png" class="d-block w-100" alt="Slide 1">
-    </div>
-    <div class="carousel-item">
-      <img src="assets/images/bs-images/key01.png" class="d-block w-100" alt="Slide 2">
-    </div>
-    <div class="carousel-item">
-      <img src="assets/images/bs-images/key01.png" class="d-block w-100" alt="Slide 3">
-    </div>
-  </div>
-</div>
-</div>
-
-
-<div class="container-lg">
-  <!--カラムここから -->
-  <div class="container">
-    <div class="row">
-      <div class="col-sm">
-        <h3>税理士に掛かる毎月の『顧問料』</h3>
-          <p>一般的な税務相談に必要な<mark>顧問料</mark>ですが、月額2~3万円から徐々に増加し、事業規模や経過年数による値上げなど、いわゆる"言い値"で決められています。
-            専門的な会計知識や個別具体的な相談で心強い味方となってくれますが、「質問したいことすらわからない」というスタートアップ事業者の方には無駄な費用となりがちで、経営の大きな負担となっているケースが非常に多いのです。
-          </p>
-      </div>
-      <div class="col-sm">
-        <h3>帳簿作成作業を外注化</h3>
-        <p>最も面倒で煩雑な作業が帳簿の作成作業です。税理士へ記帳作業の代行を依頼すると業種によっては高額な請求をされます。これは税理士側からしても一番面倒な部分で、更に記帳代行業者へマージンを抜いて外注していることもあります。
-  記帳代行に加えて、"会計サポート"や"会計カリキュラム"により経営者として成長できることもスマカクの強みです。
-        </p>
-      </div>
-    </div>
-  </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm">
-      <h4>税理士に掛かる毎月の『顧問料』</h4>
-      <ul>
-        <li>リストが入ります。</li>
-          <ol>
-            <li>リストが入ります。</li>
-            <li>リストが入ります。</li>
-          </ol>
-        <li>リストが入ります。</li>
-        <li>リストが入ります。</li>
-      </ul>
-      </div>
-      <div class="col-sm">
-        <h3>帳簿作成作業を外注化</h3>
-        <p>最も面倒で煩雑な作業が帳簿の作成作業です。税理士へ記帳作業の代行を依頼すると業種によっては高額な請求をされます。これは税理士側からしても一番面倒な部分で、更に記帳代行業者へマージンを抜いて外注していることもあります。
-  記帳代行に加えて、"会計サポート"や"会計カリキュラム"により経営者として成長できることもスマカクの強みです。
-        </p>
-        </H3>
-      </div>
-      </div>
-
-
-  <div class="container">
-
-    <div class="row">
-      <div class="col-sm">
-        <h3>左に色付きのテーブル</h3>
-
-        <!-- .table-{color} can be use with .table, thead, tbody, tr, th and td -->
-<table class="table">
-  <thead>
-    <tr>
-      <th scope="col">Class</th>
-      <th scope="col">Heading</th>
-      <th scope="col">Heading</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">Default</th>
-      <td>Cell</td>
-      <td>Cell</td>
-    </tr>
-    <tr class="table-primary">
-      <th scope="row">.table-primary</th>
-      <td>Cell</td>
-      <td>Cell</td>
-    </tr>
-    <tr class="table-secondary">
-      <th scope="row">.table-secondary</th>
-      <td>Cell</td>
-      <td>Cell</td>
-    </tr>
-    <tr class="table-success">
-      <th scope="row">.table-success</th>
-      <td>Cell</td>
-      <td>Cell</td>
-    </tr>
-    <tr class="table-danger">
-      <th scope="row">.table-danger</th>
-      <td>Cell</td>
-      <td>Cell</td>
-    </tr>
-    <tr class="table-warning">
-      <th scope="row">.table-warning</th>
-      <td>Cell</td>
-      <td>Cell</td>
-    </tr>
-    <tr class="table-info">
-      <th scope="row">.table-info</th>
-      <td>Cell</td>
-      <td>Cell</td>
-    </tr>
-    <tr class="table-light">
-      <th scope="row">.table-light</th>
-      <td>Cell</td>
-      <td>Cell</td>
-    </tr>
-    <tr class="table-dark">
-      <th scope="row">.table-dark</th>
-      <td>Cell</td>
-      <td>Cell</td>
-    </tr>
-  </tbody>
-</table>
-
-      </div>
-
-
-      <div class="col-sm">
-        <h3>右に色付きのテーブル</h3>
-
-        <table class="table table-bordered">
-          <thead>
-            <tr>
-              <th scope="col">#</th>
-              <th scope="col">First</th>
-              <th scope="col">Last</th>
-              <th scope="col">Handle</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th scope="row">1</th>
-              <td>Mark</td>
-              <td>Otto</td>
-              <td>@mdo</td>
-            </tr>
-            <tr>
-              <th scope="row">2</th>
-              <td>Jacob</td>
-              <td>Thornton</td>
-              <td>@fat</td>
-            </tr>
-            <tr>
-              <th scope="row">3</th>
-              <td colspan="2">Larry the Bird</td>
-              <td>@twitter</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-md">
-        One of three columns
-      </div>
-      <div class="col-md">
-        One of three columns
-      </div>
-      <div class="col-md">
-        One of three columns
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-lg">
-        One of three columns
-      </div>
-      <div class="col-lg">
-        One of three columns
-      </div>
-      <div class="col-lg">
-        One of three columns
-      </div>
-    </div>
-
-  </div>
-<!-- カラムここまで -->
-</div><!-- コンテンツサイズ-->
-
-<!--アコーディオンここから -->
-<div class="inner">
-<div class="container">
-<div class="accordion" id="accordionExample">
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingOne">
-      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-        Accordion Item #1
-      </button>
-    </h2>
-    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        <strong>This is the first item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-      </div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingTwo">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-        Accordion Item #2
-      </button>
-    </h2>
-    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-      </div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingThree">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-        Accordion Item #3
-      </button>
-    </h2>
-    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-      </div>
-    </div>
-  </div>
-</div>
-<!--アコーディオンここまで -->
-</div><!--container-->
-</div><!--service-->
-
-
-<div class="inner02">
-  <div class="container">
-<!--テーブルここから -->
-<table class="table">
-  <thead>
-    <tr>
-      <th scope="col">#</th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
-      <th scope="col">Handle</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td colspan="2">Larry the Bird</td>
-      <td>@twitter</td>
-    </tr>
-  </tbody>
-</table>
-<!--テーブルここまで -->
-</div>
-</div>
-   
-<footer>
-  <footer-inter></footer-inter>
-  <div class="footer-bottom">
-      <div class="text-center">
-        &copy;&nbsp;<span>2022&nbsp;</span>税理士クラウド &nbsp;<span class="mobile-hide">CORPORATION.</span>
-      </div>
-  </div>
-</div>
-</footer>
-
-<script type="text/javascript" src="js/menu.js"></script>
- </body>
-</html>
+        <div id="footer">
+        <!--<a href="http://blog.leh.jp/?day=20200403" target="_blank" class="news">Leh 2020-2021 AW collection exhibition
+    「romantic」開催中止のお知らせ</a><br/>
+            <br/>-->
+            now&nbsp;on&nbsp;sale<br/>
+        <!--This travel starts soon...!<br />-->
+            Copyright (C) Leh 2013. All Rights Reserved.<br/>
+            <span class="company_name">www.leh.jp</span><br /><br />
+        <a href="mailto:info@leh.jp"><img src="img/mail.jpg" alt="LEHにメール" width="18" height="12"  /></a>
+        </div>
+    
+    <!--FOOTERここまで-->
+    
+    </div><!--/#container-->
+    <script type="text/javascript" src="js/menu.js"></script>  
+    </body>
+    </html>
