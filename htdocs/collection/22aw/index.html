@@ -144,6 +144,7 @@ var $elem = $('.js-image-switch');
     </div>
   </header>
 
+  <!--
   <div id="gnav-top">
     <ul>
       <li><a href="../../index.html"><img src="../../lib/img/com/gnav_top.png" alt="TOP" /></a></li>
@@ -158,7 +159,7 @@ var $elem = $('.js-image-switch');
       <li><a href="https://instagram.com/leh__official/" target="_blank"><img src="../../lib/img/com/leh_instagram.png" alt="INSTAGRAM" /></a></li>
       </ul>
 </div>
-
+-->
 <div id="container">
 <div class="main clearfix">
 <div>
@@ -175,6 +176,7 @@ height: 100%;
 margin: 0 auto;
 overflow-x: hidden;
 position: relative;
+background-color: #5e0004;
 }	
 .slick-prev:before, .slick-next:before{
 color: #000;
@@ -191,8 +193,8 @@ padding-top: 60px;
 }
 
 .item img {
-width: 800px;
-margin-bottom: 60px;
+width: 100%;
+margin-bottom: 10px;
 }
 
 .sp_menu{
@@ -242,6 +244,10 @@ margin-top: 120px;
 }
 }
 */
+
+.collectionTitle {
+    width: 100%;
+}
 
 @media (max-width: 767px){
 #menu_collection{
@@ -293,7 +299,11 @@ top: 80px;
 }
 
 .item img{
-    width: 350px;
+    width: 100%;
+}
+
+#menu_collection{
+  display: none;
 }
 }	
 
@@ -301,35 +311,32 @@ top: 80px;
 </style>
 
 <div class="slider">
-<div class="item"><img src="../img/22aw/look/leh_22aw_top.jpg"  /></div>
+<div class="item"><img src="../img/22aw/look/leh_22AW_top.jpg"  /></div>
 </div>
 <div class="slider">
-<div class="item"><img src="../img/22aw/look/leh_22aw_look1.jpg"  /></div>
-<div class="item"><img src="../img/22aw/look/leh_22aw_look2.jpg"  /></div>
-<div class="item"><img src="../img/22aw/look/leh_22aw_look3.jpg"  /></div>
-<div class="item"><img src="../img/22aw/look/leh_22aw_look4.jpg"  /></div>
-<div class="item"><img src="../img/22aw/look/leh_22aw_look5.jpg"  /></div>
-<div class="item"><img src="../img/22aw/look/leh_22aw_look6.jpg"  /></div>
-<div class="item"><img src="../img/22aw/look/leh_22aw_look7.jpg"  /></div>
-<div class="item"><img src="../img/22aw/look/leh_22aw_look8.jpg"  /></div>
-<div class="item"><img src="../img/22aw/look/leh_22aw_look9.jpg"  /></div>
-<div class="item"><img src="../img/22aw/look/leh_22aw_look10.jpg"  /></div>
-<div class="item"><img src="../img/22aw/look/leh_22aw_look11.jpg"  /></div>
-<div class="item"><img src="../img/22aw/look/leh_22aw_look12.jpg"  /></div>
-<div class="item"><img src="../img/22aw/look/leh_22aw_look13.jpg"  /></div>
-<div class="item"><img src="../img/22aw/look/leh_22aw_look14.jpg"  /></div>
-<div class="item"><img src="../img/22aw/look/leh_22aw_look15.jpg"  /></div>
-<div class="item"><img src="../img/22aw/look/leh_22aw_look16.jpg"  /></div>
-<div class="item"><img src="../img/22aw/look/leh_22aw_look17.jpg"  /></div>
-<div class="item"><img src="../img/22aw/look/leh_22aw_look18.jpg"  /></div>
-<div class="item"><img src="../img/22aw/look/leh_22aw_look19.jpg"  /></div>
-<div class="item"><img src="../img/22aw/look/leh_22aw_look20.jpg"  /></div>
-<div class="item"><img src="../img/22aw/look/leh_22aw_look21.jpg"  /></div>
-<div class="item"><img src="../img/22aw/look/leh_22aw_look22.jpg"  /></div>
-<div class="item"><img src="../img/22aw/look/leh_22aw_look23.jpg"  /></div>
+<div class="item"><img src="../img/22aw/look/leh_22AW_look2.jpg"  /></div>
+<div class="item"><img src="../img/22aw/look/leh_22AW_look3.jpg"  /></div>
+<div class="item"><img src="../img/22aw/look/leh_22AW_look4.jpg"  /></div>
+<div class="item"><img src="../img/22aw/look/leh_22AW_look5.jpg"  /></div>
+<div class="item"><img src="../img/22aw/look/leh_22AW_look6.jpg"  /></div>
+<div class="item"><img src="../img/22aw/look/leh_22AW_look7.jpg"  /></div>
+<div class="item"><img src="../img/22aw/look/leh_22AW_look8.jpg"  /></div>
+<div class="item"><img src="../img/22aw/look/leh_22AW_look9.jpg"  /></div>
+<div class="item"><img src="../img/22aw/look/leh_22AW_look10.jpg"  /></div>
+<div class="item"><img src="../img/22aw/look/leh_22AW_look11.jpg"  /></div>
+<div class="item"><img src="../img/22aw/look/leh_22AW_look12.jpg"  /></div>
+<div class="item"><img src="../img/22aw/look/leh_22AW_look13.jpg"  /></div>
+<div class="item"><img src="../img/22aw/look/leh_22AW_look14.jpg"  /></div>
+<div class="item"><img src="../img/22aw/look/leh_22AW_look15.jpg"  /></div>
+<div class="item"><img src="../img/22aw/look/leh_22AW_look16.jpg"  /></div>
+<div class="item"><img src="../img/22aw/look/leh_22AW_look17.jpg"  /></div>
+<div class="item"><img src="../img/22aw/look/leh_22AW_look18.jpg"  /></div>
+<div class="item"><img src="../img/22aw/look/leh_22AW_look19.jpg"  /></div>
+<div class="item"><img src="../img/22aw/look/leh_22AW_look20.jpg"  /></div>
+<div class="item"><img src="../img/22aw/look/leh_22AW_look21.jpg"  /></div>
 
 <div class="slider">
-<div class="item"><img src="../img/22aw/look/leh_22aw_look24.jpg"  /></div>
+<div class="item"><img src="../img/22aw/look/leh_22AW_look22.jpg"  /></div>
 </div>
 </div>
 <!--
@@ -393,6 +400,43 @@ top: 80px;
 <div class="js-pageTop"></div>
 
 <!--FOOTERここから-->
+<style type="text/css">
+#menu_collection {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    text-align: center;
+    height: 30px;
+    background-color: #5e0004; 
+    /* white-space: nowrap; */
+}
+#menu_collection ul {
+  display: flex;
+    justify-content: center;
+    margin-bottom: 0.3rem;
+}
+#menu_collection a{
+border-right: 1px solid;
+    font-size: 13px;
+    padding: 0 0.75em;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+</style>
+<div id="menu_collection">
+		<div>
+	<ul>
+		<li><a href="../../index.html">TOP</a></li>
+		<li><a href="../../collection.php">COLLECTION</a></li>
+		<li><a href="../../memo.php">JOURNAL&INFO</a></li>
+		<li><a href="../../stockist.php">STOCKIST</a></li>
+		<li><a href="../../senseofliving.php">SENSE OF LIVING</a></li>
+		<li><a href="../../aboutus_en.php">ABOUT US</a></li>
+		<li><a href="../../movie.php">MOVIEW</a></li>
+		<li><a href="http://blog.leh.jp/" target="_blank">NOTE</a></li>
+	</ul>
+</div>
+
+	</div>
 
     <div id="footer">
 		now&nbsp;on&nbsp;sale<br />
