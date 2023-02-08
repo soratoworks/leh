@@ -74,6 +74,12 @@
     <h1>SENSE OF LIVING</h1>
 
 <div class="slider">
+      <div><img src="lib/img/senseofliving/23ss/001.jpg" class="img-mb-20" alt="" /></div>
+      <div><img src="lib/img/senseofliving/23ss/002.jpg" class="img-mb-20" alt="" /></div>
+      <div><img src="lib/img/senseofliving/23ss/003.jpg" class="img-mb-20" alt="" /></div>
+      <div><img src="lib/img/senseofliving/23ss/004.jpg" class="img-mb-20" alt="" /></div>
+      <div><img src="lib/img/senseofliving/23ss/005.jpg" class="img-mb-20" alt="" /></div>
+
       <div><img src="lib/img/senseofliving/202101/001.jpg" class="img-mb-20" alt="" /></div>
       <div><img src="lib/img/senseofliving/202101/002.jpg" class="img-mb-20" alt="" /></div>
       <div><img src="lib/img/senseofliving/202101/003.jpg" class="img-mb-20" alt="" /></div>

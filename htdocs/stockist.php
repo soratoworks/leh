@@ -1,5 +1,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="jp">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -235,11 +236,11 @@
 </a>
 </div>	
 
-<!--  Plasticbanana  -->
+<!--  VASS -->
 <div class="stockist_content_text">
-<a href="https://goo.gl/maps/DLoHqGQ2ae3KA3bD6">
-<h3 class="shopname">Plasticbanana</h3>
-<p class="shopinfo">41 Noksapyeong-daero 40-gil Yongsan-gu Seoul Korea  /  TEL.+82-10-4591-2161</p>
+<a href="https://goo.gl/maps/NyTFAjiEyzafA5C17">
+<h3 class="shopname">VASS</h3>
+<p class="shopinfo">3-18, Dongmak-ro, Mapo-gu, Seoul / TEL +82 010-5275-2742</p>
 </a>
 </div>
 

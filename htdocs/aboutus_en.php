@@ -1,5 +1,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -61,258 +62,145 @@
 <h1 class="about-us">ABOUT US</h1>
 <a href="aboutus_jp.php"><p class="change-la">Japanese</p></a>
 		<div class="content_text">
-			brand name ： LEH ( leˈ )<br />
-			<br />
-			ZIP : 168-0062<br />
-			ADD : Kowankisonnu #201 2-11-2 Hounan. Suginami-Ku .Tokyo. JPN<br />
-			<br />
-			designer：  Takuya Mikami　( mikami @ leh.jp )<br />
+		Brand name ： LEH ( leˈ )<br>
+		Designer： Takuya Mikami
 		</div>
 		
 		<div class="content_text">
-		[ LEH - CONCEPT ]<br />
-		TRIP × HIPPIE ＝ TRIPPIE　全てが宇宙であるということ。<br />
-		自由な志向を持ち、ジャンルにとらわれる事無く旅を続けるスタイル。<br />
-		LEH=0　0=0 の概念　( レー = 零 )　( 零 = 無 ）<br />
-		ブランド名であるLEH (レー) は、北インドの土地の名前に由来します。
+		[ LEH - CONCEPT ]<br><br>
+		The brand name comes from Leh (LEH), a land in North India.<br><br>
+		The concept of LEH=0 0=0 (le = zero) (zero = nothing).<br><br>
+		While continuing to travel around the world, starting with India, cultural elements that should be handed down, such as folk costumes that are common between Japan and overseas, are elements of life as "things to wear and things that function in everyday life." Heto remakes according to sensibility / Pursuit of modern fashion / Expressing elaborate details / Clothes that smell of music / Making things with free thinking that is not bound by existing concepts.<br>
+		Mainly one-of-a-kind household goods, folk crafts, furniture, etc. from around the world on the theme of living.<br>
+		"Sense of Living by Leh", which means "living sense", is also developed irregularly.<br>
+		<br>
+		[ Takuya Mikami - PROFILE ]<br><br>
+		1980 Born in Sapporo, Hokkaido.<br>
+		In 2005, he traveled to India for the first time overseas, producing clothes locally and bringing them home.<br>
+		While producing in Japan and India, he travels around the world and flexibly incorporates culture, technology, and beauty with his unique aesthetic eye.<br>
+		<br>
 		</div>
-		
-		
+
 		<div class="content_text">
-		[ Takuya Mikami - PROFILE ]<br />
-		<br />
-		born in 1980, Hokkaido/JPN.<br />
-		<br />
-		LEH = 0<br />
-		All are space.<br />
-		All are infinities, and it is free.<br />
-		Therefore, I have traveled through all eternith infinite.<br />
-		<br />
+		2005 Established "LEH".<br><br>
 
-		1980<br />
-        Born in Hokkaido.<br />
-		Institute of Hokkaido culture clothes technical school leaving school in midcourse<br />
-		Through a stylist, I begin that I make clothes while roaming about all the countries of the world.  
-        <br />
-		<br />
+		2008 Displayed and sold at select shop "Suspect" in Barcelona, ​​Spain.<br><br>
 
-		2005<br />
-		Establishment of "Leh"<br />
-		In first overseas India, I produce clothes locally and take it home with me.<br />
-		<br />
-        <br />
+		2010 LEH installation<br>
+		"violet"<br>
+		@Urban Research Kagure<br><br>
 
-		2006<br />
-		Learn the craftsman of Bali, leather processing and a super silver technique.<br />
-		It is handmade and produces a leather wallet, leather underwear.<br />
-        <br />
-		<br />
+		2011 Sense of Living by Leh exhibition<br>
+		@ KAWAUSO<br><br>
 
-		2007<br />
-		A tour in Mongolia. On a horse, I share life with nomadic herders.
-		I produce a felt hat.
-        <br />
-        <br />
+		2012 SHOP UNiFAM Art direction<br><br>
 
-		LEH exhibition「MONGOLIAN」@unit+unice /Tokyo<br /><br />
+		2012 Exhibition of INDIA KANTA cloth<br>
+		@ ROZAN<br><br>
 
-		In India, it is produced 2008 LEH S/S. It unfolds in select shops of the whole country.
-		Indian cotton, hand, embroidery, dyeing, emblem.<br />
-        <br />
-		<br />
+		2012 LEH 2012-13 Spring/Summer<br>
+		"stone"<br><br>
 
-		2008<br />
-		I display it in select shop "suspect" of Spain Barcelona and sell it.<br /><br />
+		2013 LEH2013-14 Autumn/Winter<br>
+		"Be Here Now"<br><br>
 
-		LEH 2008A/W exhibition<br />
-		「The Brother From Another Planet」<br />
-		＠Aoyama studio No.5 /Tokyo<br /><br />
+		2013 Sense of Living by Leh exhibition<br>
+		@KOSOAN<br>
 
-		LEH 2009S/S exhibition<br />
-		「LIGHT! X WRITE! X RIGHT?」<br />
-		＠unice /Tokyo<br />
-        <br />
-        <br />
+		2013 LEH [BORO Exhibition]<br>
+		@GARDEN<br><br>
 
-		2009<br />
-		「LIGHT! X WRITE! X RIGHT? x North,East,South,West,」exhibition<br />
-        ＠North,East,South,West,_BAYCREW'S GROUP /Tokyo<br /><br />
+		2013 LEH 2014 Spring/Summer<br>
+		"NEO HOMELESS"<br><br>
 
-        LEH 2009A/W exhibition「LEW 2009-2010 autumn / winter collection」<br />
-        ＠Aoyama studio No.5 /Tokyo
-        <br />
-		<br />
-        
-        LEH 2010S/S exhibition「LEH 2010 spring / summer collection」<br />
-        ＠go-getter /Tokyo<br />
-        <br />
-		<br />
-        
-		2010<br />
-		LEH 2010A/W exhibition「LEH 2010-2011 autumn / winter collection」<br />
-		＠Solfa /Tokyo<br /><br />
+		2014 LEH 2014-15 Autumn/Winter<br>
+		"BEAT ZOKU"<br><br>
 
-		LEH installation「violet」<br />
-		＠Urban research KAGURE /Tokyo<br /><br />
+		2014 LEH "BEAT ZOKU" Event party<br>
+		Live: mabanua Cutsigh Mitsukaze Kohei Uchida<br>
+		@ROOTS<br><br>
 
-		LEH 2011S/S exhibition「LEH 2011 spring / summer collection」<br />
-		＠ROOTS /Tokyo <br /><br />
+		2014 Sense of Living by Leh exhibition<br>
+		@KAWAUSO<br><br>
 
-		LEH installation「The World It self」<br />
-		＠Heg. /Iwate<br />
-		<br />
-		<br />
-        
-		2011<br />
-		LEH 2011A/W exhibition 「LEH 2011 autumn / winter collection」<br />
-		＠ROOTS /Tokyo<br /><br />
+		2014 LEH 2015 Spring/Summer<br>
+		"Free Tibet x Free Japan x Free Fashion"<br><br>
 
-		Sense of Living  exhibition by Leh<br />
-		INDIA BENGAL,PAKISTAN countrywomen display the collection which they collected so far 	including the cloth canter that they made up carefully one stitch of one stitch<br />
-		＠KAWAUSO /Tokyo<br /><br />
+		2015 Sense of Living by Leh exhibition<br>
+		@Gallery TOM<br><br>
 
-		LEH 2012S/S exhibition 「LEH 2011 spring/ summer collection」<br />
-		＠HAPPA /Tokyo<br />
-        <br />
-		<br />
-		
-        2012<br />
-		SHOP UNiFAM Art direction<br /><br /> 
+		2015 LEH 2015-16 Autumn/Winter<br>
+		"MATERIAL OF THE EARTH"<br>
 
-		LEH 2012 A/W exhibition 「LEH 2012 autumn / winter collection」<br />
-		＠ROOTS /Tokyo<br /><br />
+		2015 LEH 2016 Spring/Summer<br>
+		"THE ETHIOPIAN DANDYISM"<br><br>
 
-		Display INDIA KANTA cloth<br />
-		＠ROZAN /Tokyo<br /><br />
+		2016 LEH 2016-17 Autumun/Winter<br>
+		"Outsider + People-August"<br><br>
 
-		LEH 2013S/S exhibition <br />
-		「STONE」<br />
-		＠HAPPA /Tokyo<br />
-		<br />
-        <br />
-        
-		2013<br />
-		LEH 2013A/W exhibition<br />
-		「BE HERE NOW」<br />
-		＠Solfa. ＠IKI-BA /Tokyo<br /><br />
+		2017 LEH 2017 Spring/Summer<br>
+		"Protection"<br><br>
 
-		Sense of Living exhibition by Leh<br />
-		＠KOSOUAN/Tokyo<br /><br />
+		2017 Sense Of Living by Leh<br>
+		EXHIBITION and PARTY<br>
+		LIVE :Uchida Kohei Trio<br>
+		DJ :JUZU a.k.a MOOCHY<br>
+		@WARE-mo-KOU<br><br>
 
-		LEH exhibition 「BORO」<br />
-		＠GARDEN/Tokyo<br /><br />
+		2017 LEH 2017-18 Autumn/Winter<br>
+		"SCENE OF THE DAY"<br><br>
 
-		LEH 2014S/S exhibition <br />
-		「NEO HOMELESS 」<br />
-		＠IKI-BA/Tokyo<br />
-        <br />
-        <br />
-        
-        2014<br />
-        LEH「Beat Zoku」Event party<br />
-		＠ROOTS /Tokyo<br /><br />
+		2017 Sense Of Living by Leh<br>
+		EXHIBITION and PARTY<br>
+		LIVE: Yoshie Nakano (EGO-WRAPPIN')<br>
+		Mitsukaze× Karamushi<br>
+		DJ :Harashima 'Domannaka' Michiyoshi<br>
+		@Gallery TOM　<br><br>
 
-		LEH「Beat Zoku」Event party<br />
-		＠Meguru /Mie<br /><br />
+		2017 LEH 2018 Spring/Summer<br>
+		"BORN TO BE BLUE"<br>
 
-		Sense of Living exhibition by Leh<br /> 
-		＠KAWAUSO /Tokyo<br /><br />
+		2018 LEH 2018-19 Autumn/Winter<br>
+		"PRIZE FIGHT"<br><br>
 
-		LEH　2014A/W exhibition <br />
-		「Free Tibet×Free Japan×Free Fashion」<br />
-		＠Gallery TOM /Tokyo<br />
-        <br />
-        <br />
-        
-        2015<br />
-        Sense of Living exhibition by Leh &Event Party<br />
-		＠Gallery TOM /Tokyo<br /><br />
+		2019 LEH 2019 Spring/Winter<br>
+		"8 Million"<br>
 
-		LEH 2015-16A/W Collection<br />
-		「MATERIAL OF THE EARTH」<br />
-        ＠Gallery TOM /Tokyo<br />
-        <br />
-        <br />
-        
-        2016<br />
-		LEH 2016S/S Collection Exhibition<br />
-        「THE ETHIOPIAN DANDYISM」<br />
-		＠Gallery TOM /Tokyo<br /><br />
+		2019 LEH 2019-20 Autumn/Winter<br>
+		"THE CUT-UPS"<br><br>
 
-		LEH 2016-17A/W Collection Exhibition<br />
-        「outsider + minzoku - August」<br />
-		＠MIDORI.so2/Tokyo<br />
-        <br />
-        <br />
-        
+		2019 LEH Presents "BEAT ZOKU" Party<br>
+		Live: Mitsukaze Cutsigh AOTA<br>
+		DJ :Harashima ' Domannaka'Michiyoshi<br>
+		Taisuke Sawamura<br>
+		Dan Yasuda (solfa.BATICA) 8810 (ROOTS)<br>
+		@BATICA<br><br>
 
-        2017<br />
-		 LEH 2017 S/S Collection Exhibition<br />
-		「"Protection"」<br />
-		＠MIDORI.so2/Tokyo<br /><br />
+		2020 LEH 2021 Spring/Summer<br>
+		"THE POP-STAR"<br><br>
 
-		2017 SENSE OF LIVING By Leh EXHIBITION and PARTY<br />
-        ＠WARE-mo-KOU<br /><br />
+		2020 "LEH×GARDEN Osaka + GARDEN Shibuya" Spring/Summer Collection Exhibition<br>
+		＠GARDEN/Tokyo/Osaka<br><br>
 
-		 LEH 2017-18A/W Collection Exhibition<br />
-		「SCENE OF THE DAY」<br />
-		＠Gallery TOM /Tokyo<br /><br />
+		2020 LEH 2020-21 Autumn/Winter "Romantic"<br><br>
 
-		 2017 SENSE OF LIVING By Leh EXHIBITION and PARTY<br />
-		＠Gallery TOM /Tokyo<br /><br />
+		2020 LEH 2021 Spring/Summer<br>
+		"FUKUSHOKUJINSHU"<br><br>
 
-        2018<br />
-		 LEH 2018S/S Collection Exhibition<br />
-		「BORN TO BE BLUE」<br />
-		＠URASANDO GARDEN/ Tokyo<br /><br />
+		2021 Sense Of Living by Leh<br>
+		「tabino kakera ten」Exhibition with Party<br>
+		Live :Senninsho Fuyuki Yamakawa Cutsigh<br>
+		DJ :Harashima 'Domannaka' Sorayoshi SUIMIN<br>
+		@Cream<br><br>
 
-		 LEH2018-19A/W Collection Exhibition<br />
-		「PRIZE FIGHT」<br />
-		＠Gallery TOM /Tokyo<br /><br />
-           
-        2019<br />
-        LEH 2019 Spring/Winter Collection Exhibition<br>
-        「８ Million 」<br>
-        @tentplant /Tokyo<br><br>
-        
-         LEH 2019-20A/W Collection Exhibition<br />
-		「THE CUT-UPS」<br />
-		@tentplant /Tokyo<br><br>
-            
-        LEH Presents BEATZOKU<br>
-        Live 光風,Cutsigh,aota<br> 
-        @BATICA /Tokyo<br><br>
-    
-        2020<br />
-        LEH 2020 Spring and Summer Collection Exhibition<br>
-        「THE POP-STAR」<br>
-        @YEAST /Tokyo<br><br>
+		2022 LEH 2022 Spring/Summer<br>
+		"LONELY PLANET"<br>
 
-        LEH 2020 Spring and Summer Collection Exhibition<br>
-         「LEH×GARDEN Osaka + GARDEN Shibuya」<br>
-        ＠GARDEN /Tokyo /Osaka <br><br>
-        
-        LEH 2020-21 Autumn and Winter Collection Exhibition<br>
-        「Romantic」<br><br>
-        
-        LEH 2021 Spring and Summer Collection Exhibition<br />
-		「FUKUSHOKUJINSHU」<br />
-		@tentplant /Tokyo<br><br>
-		
-		2021<br />
-		LEH 2021-22 Autumn and Winter Collection Exhibition <br />
-		「BEAT Meditation」<br />
-		@KATA/Tokyo<br>
-		<br>
-		SENSE OF LIVING by Leh「tabino kakera ten」Exhibition with Party <br>
-		@Cream/Tokyo
-		<br><br>
-		2022<br />
-		LEH 2022 Spring and Summer Collection Exhibition「LONELY PLANET」<br>
-		@KATA/Tokyo<br>
-		<br>
-		LEH 2022-23 autumn and Winter Collection Exhibition「My Your Religion」<br>
-		@KATA/Tokyo<br>
+		2022 LEH 2022-23 Autumn/Winter<br>
+		"My Your Religion"<br><br>
+
+		2023 LEH 2023 Spring/Summer<br>
+		"The Third Mind"
 		</div>
 		</div>
 		
@@ -325,8 +213,8 @@
 <!--FOOTERここから-->
 
     <div id="footer">
-        Copyright (C) All Rights Reserved by Leh.<br />
-        <span class="company_name"><a href="../../index.html">www.leh.jp</a></span><br /><br />
+        Copyright (C) All Rights Reserved by Leh.<br>
+        <span class="company_name"><a href="../../index.html">www.leh.jp</a></span><br><br>
 		<a href="mailto:info@leh.jp"><img src="img/mail.jpg" alt="LEHにメール" width="18" height="12" border="0" /></a>
     </div>
 
