@@ -71,8 +71,8 @@
 </a>
 </div>
 <div class="stockist_content_text">
-<a href="https://goo.gl/maps/KCsqUz6zyP5G1T1M7">
-<p class="shopinfo">PARCO West Bldg 1F 3-29-1 Sakae Naka-ku Nagoya-shi Aichi 460-0008 Japan / TEL.052-253-8105</p>
+<a href="https://goo.gl/maps/RfCZB6MxfqARDK9d7">
+<p class="shopinfo">3-24-10 Sakae, Naka-ku, Nagoya-shi, Aichi 460-0008 Japan / TEL.052-253-8105</p>
 </a>
 </div>
 

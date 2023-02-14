@@ -1,5 +1,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <!--<html xmlns="http://www.w3.org/1999/xhtml">-->
+<html lang="jp">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -72,8 +73,8 @@
 <!--<a href="collection/22ss/index.html" class="imghover_collection">
 	<img src="lib/img/collection/22ss/ent_22ss.jpg" alt="2022 spring / summer" width="759" border="0" />-->
 
-<a href="collection/22aw/index.html" class="imghover_collection">
-	<img src="lib/img/collection/22aw/ent_22aw.jpg" alt="2022 Autumn / Winter" width="759" border="0" />
+<a href="collection/23ss/index.html" class="imghover_collection">
+	<img src="lib/img/collection/23ss/ent_23ss.jpg" alt="2023 spring / summer" width="759" border="0" />
 
 </a>
 
@@ -89,6 +90,14 @@
 				<h3 class="head-border">Conventional collection</h3>
 			</div>
             
+			<div class="collection_img_01_past">
+            	<a href="collection/22aw/index.html" class="imghover_collection">
+            	<img src="lib/img/collection/22aw/ent_22aw.jpg" alt="2022 Autumn / Winter" height="130" border="0" />
+				</a>
+				<br />
+				<P>22 A/W</P>
+			</div>
+
 			<div class="collection_img_01_past">
             	<a href="collection/22ss/index.html" class="imghover_collection">
             	<img src="lib/img/collection/22ss/ent_22ss.jpg" alt="2022 spring / summer" height="130" border="0" />

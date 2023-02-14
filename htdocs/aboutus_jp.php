@@ -1,5 +1,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="jp">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -61,199 +62,154 @@
 <h1 class="about-us">ABOUT US</h1>
 <a href="aboutus_en.php"><p class="change-la">English</p></a>
 		<div class="content_text">
-			brand name ： LEH ( leˈ )<br />
-			<br />
-			ZIP : 168-0062<br />
-			ADD : Kowankisonnu #201 2-11-2 Hounan. Suginami-Ku .Tokyo. JPN<br />
-			<br />
-			designer：  Takuya Mikami　( mikami @ leh.jp )<br />
+		    Brand name ： LEH ( leˈ )<br>
+			Designer：  Takuya Mikami　<br>
 		</div>
 		
 		<div class="content_text">
-		[ LEH - CONCEPT ]<br />
-		TRIP × HIPPIE ＝ TRIPPIE　全てが宇宙であるということ。<br />
-		自由な志向を持ち、ジャンルにとらわれる事無く旅を続けるスタイル。<br />
-		LEH=0　0=0 の概念　( レー = 零 )　( 零 = 無 ）<br />
-		ブランド名であるLEH (レー) は、北インドの土地の名前に由来します。
+		[ LEH - CONCEPT ]<br><br>
+		北インドの土地レー(LEH)がブランド名の由来。<br><br>	
+		LEH=0 0=0 の概念(レー = 零)(零 = 無)。<br>
+		インドをはじめとした世界各地へと旅をし続けながら/海外と日本に共通する民族衣装等の引き継がれてゆくべき文化性を『身に纏うもの・日常で機能するもの』としての生活的要素へと感性に沿って作りかえ/現代モードの追求/手の込んだディテールの表現/音楽の匂いのする洋服たち/既存の概念にとらわれない自由な思考でものづくりをしている。<br>
+		暮らしをテーマとする主に一点物の世界各国の生活雑貨/民藝品/家具などを展示した<br>
+		”活きるセンス”を意味する『Sense of Living by Leh』も不定期に展開。<br><br>
+		
+		[ Takuya Mikami - PROFILE ]<br>
+		<br>
+		1980 年　北海道札幌に生まれる。<br>
+		<br>
+		2005年、初めての海外インドにて、服を現地で生産し持ち帰る。<br>
+		日本とインドで生産をしながら、世界各国を巡り、文化性・技術・美しいものを独自の審美眼でフレキシブルに取り入れている。<br><br>
 		</div>
-		
-		
+
 		<div class="content_text">
-		[ Takuya Mikami - PROFILE ]<br />
-		<br />
-		born in 1980, Hokkaido/JPN.<br />
-		<br />
-		LEH = 0<br />
-		All are space.<br />
-		All are infinities, and it is free.<br />
-		Therefore, I have traveled through all eternith infinite.<br />
-		<br />
-		1980 年　北海道札幌に生まれる。北海道文化服装学院専門学校中退。<br />
-		スタイリストを経て、世界各国を放浪しながら服を作ることを始める。<br />
-		<br />
-		2005 年　LEH 設立。<br />
-		初めての海外インドにて、服を現地で生産し持ち帰る。<br />
-		<br />
-		2006 年　バリの職人のもと、レザー加工と超銀の技術を学ぶ。<br />
-		レザーウォレット、レザーパンツをハンドメイドで制作する。<br />
-		<br />
-		2007 年　モンゴル周遊。馬に乗り、遊牧民と生活をともにする。<br />
-		フェルトハットを制作。<br />
-		<br />
-		2007 年　 LEH exhibition「MONGOLIAN」@unit+unice (東京／代官山)<br />
-		<br />
-		2007 年　インドにて、LEH 2008 S/S の生産。(全国のセレクトショップに展開)<br />
-		インドコットン、ハンド・刺繍、染め、ワッペンなど<br />
-		<br />
-		2008 年　スペイン・バルセロナのセレクトショップ「サスペクト」にて展示販売。<br />
-		<br />
-		2008 年　LEH exhibition「The Brother From Another Planet」<br />
-		@青山スタジオNo.5 (東京／青山) / LEH 2008 AW 展示<br />
-		<br />
-		2008 年　exhibition「LIGHT! X WRITE! X RIGHT?」<br />
-		@unice (東京／代官山) / LEH 2009 SS 展示<br />
-		<br />
-		2009 年　exhibition「LIGHT! X WRITE! X RIGHT? x North,East,South,West,」<br />
-		@North,East,South,West,_BAYCREW'S GROUP (東京／青山)<br />
-		<br />
-		2009 年　LEH exhibition「LEW 2009-2010 autumn / winter collection」<br />
-		@青山スタジオNo.5 (東京／青山) / LEH 09/10 AW 展示<br />
-		<br />
-		2009 年　LEH exhibition「LEH 2010 spring / summer collection」<br />
-		@go-getter (東京／原宿) / LEH 10 SS 展示<br />
-		<br />
-		2010 年　LEH exhibition「LEH 2010-2011 autumn / winter collection」<br />
-		@Solfa (東京／中目黒) / LEH 10/11 AW 展示<br />
-		<br />
-		2010 年　LEH installation「violet」<br />
-		@アーバンリサーチ かぐれ (東京／丸の内)<br />
-		<br />
-		2010 年　LEH exhibition「LEH 2011 spring / summer collection」<br />
-		@ROOT (東京／渋谷) LEH 2011 SS展示<br />
-		<br />
-		2010 年　LEH installation「The World It self」<br />
-		@Heg. (岩手／北上) LEH 2011 SS展示<br />
-		<br />
-		2011 年　LEH exhibition 「LEH 2011 autumn / winter collection」<br />
-		@ROOT (東京／渋谷) LEH 2011 AW展示<br />
-		<br />
-		2011年 LEH Presents  Sense of Living exhibition<br />
-		INDIA BENGAL,PAKISTAN地方の女性たちが、<br />
-		一針一針丁寧に作り上げた布カンタなど、これまで集めたコレクションを展示<br />
-		@カワウソ（東京／台東）  Sense of Living exhibition<br />
-		<br />
-		2011年 LEH exhibition 「LEH 2011 spring/ summer collection」<br />
-		@HAPPA(東京／目黒)LEH 2011SS展示<br />
-		<br />
-		2012年 SHOP UNiFAM Art direction 担当<br />
-		<br />
-		2012年 LEH exhibition 『LEH 2012 autumn / winter collection』<br />
-		@ Root（東京/渋谷）LEH2012AW 展示<br />
-		<br />
-		2012年　INDIA KANTA 布を展示<br />
-		＠魯山（東京/西荻窪）<br />
-		<br />
-		2012年　LEH 『石』exhibition 『LEH 2012-13spring/ summer collection」<br />
-		@HAPPA(東京／目黒)LEH 2012-13spring/ summer展示<br />
-        <br />
-		2013年　LEH「Be Here Now」exhibition LEH2013-14 autumn/winter collection<br />
-		@Solfa(東京/中目黒)@IKI-BA(東京/原宿)<br />
-        <br />
-        2013年　Sense of Living exhibition<br />
-        @古桑案（東京/自由ヶ丘）<br />
-        <br />
-        2013年　LEH [BORO展]<br />
-        @GARDEN<br />
-        <br />
-        2013年　LEH NEO HOMELESS exhibition [LEH 2013 spring/summer collection]<br />
-        @IKI-BA(東京/原宿)<br />
-        <br />
-        2014年　LEH「Beat Zoku」Event party　開催<br />
-        @ROOTS (東京/渋谷）<br />
-        <br />
-        2014年   LEH「Beat Zoku」Event party　開催<br />
-        @Meguru (三重/四日市)<br />
-        <br />
-        2014年  Sense of Living exhibition By Leh  <br />
-        @カワウソ（東京／台東）<br />
-        <br />
-        2014年  LEH　「Free Tibet×Free Japan×Free Fashion」exhibition  LEH 2015 spring/summer	collection<br />
-        @Gallery TOM (東京/渋谷）<br />
-        <br />
-		2015年　Sense of Living by Leh exhibition <br />
-		@Gallery TOM (東京/渋谷）<br />
-		<br />
-		2015年　LEH　「MATERIAL OF THE EARTH」 Leh2015-16 Autumu/Winter Collection<br />
-		@Gallery TOM　(東京/渋谷）<br />
-		<br />
-		2015年　LEH　「THE ETHIOPIAN DANDYISM」 Leh2016 Spring/Summer Collection Exhibition<br />
-		@Gallery TOM　(東京/渋谷）<br />
-		<br />
-		2016年　LEH　「outsider +民族-8月」 Leh2016 Autumu/Winter Collection Exhibition<br />
-		@MIDORI.so2　(東京/青山）<br />
-		<br />
-        
-		2017年　LEH　「"Protection"」 Leh2017 Spring/Summer Collection Exhibition<br />
-		@MIDORI.so2　(東京/青山）<br />
-		<br />
+		2005 年　「LEH(レー)」設立。<br><br>
+		
+		2008 年　スペイン・バルセロナのセレクトショップ「サスペクト」にて展示販売。<br>
+		<br>
+		2010 年　LEH installation「violet」<br>
+		@アーバンリサーチ かぐれ <br>
+		
+		<br>
+		2011年 Sense of Living by Leh exhibition<br>
+		@カワウソ<br>
+		<br>
 
-		2017年　SENSE OF LIVING By Leh EXHIBITION and PARTY<br />
-		@吾亦紅 WARE-mo-KOIU　(東京/渋谷）<br />
-		<br />        
-
-		2017年　LEH　「SCENE OF THE DAY」 Leh2017-18 Autumu/Winter Collection Exhibition<br />
-		@Gallery TOM　(東京/渋谷）<br />
-		<br />        
-
-		2017年　SENSE OF LIVING By Leh EXHIBITION and PARTY<br />
-		@Gallery TOM　(東京/渋谷）<br />
-		<br /> 
-
-		2017年　LEH　「BORN TO BE BLUE」 Leh2018 Spring/Summer Collection Exhibition<br />
-		@裏参道GARDEN　(東京/神宮前）<br />
-		<br />  
-
-		2018年　LEH　「PRIZE FIGHT」 Leh2018-19 Autumu/Winter Collection Exhibition<br />
-		@Gallery TOM　(東京/渋谷）<br />
-		<br /> 
-            
-        2019年　LEH 「８ Million」 Leh2019 Spring/Winter Collection Exhibition<br />
-        @tentplant　(東京/渋谷)
-        <br /><br />
-            
-        2019年　LEH　「THE CUT-UPS」 Leh2019-20 Autumu/Winter Collection Exhibition<br />
-		＠tentplant　(東京/渋谷）<br />
-		<br /> 
-        
-        2019年　LEH Presents BEATZOKU<br>
-        Live 光風,Cutsigh,aota<br> 
-        @BATICA /Tokyo<br>
+		2012年 SHOP UNiFAM Art direction <br>
+		<br>
+		2012年　INDIA KANTA 布を展示<br>
+		＠魯山<br>
+		<br>
+		2012年　LEH 2012-13 Spring/ Summer<br>
+		「石」<br>
         <br>
-    
-        2020年　LEH 「THE POP-STAR」 Spring and Summer Collection Exhibition<br>
-        @YEAST /Tokyo<br>
+		2013年　LEH2013-14 Autumn/Winter<br>
+		「Be Here Now」<br>
+        <br>
+        2013年　Sense of Living by Leh exhibition<br>
+        @古桑案<br>
+        <br>
+        2013年　LEH [BORO展]<br>
+        @GARDEN<br>
+        <br>
+        2013年　LEH 2014 Spring/Summer<br>
+        「NEO HOMELESS」<br>
+        <br>
+        2014年　LEH 2014-15 Autumun/Winter<br>
+        「BEAT ZOKU」<br><br>
+		2014年　LEH「BEAT ZOKU」Event party　<br>
+		Live: mabanua Cutsigh 光風　内田コーヘイ<br>
+		@ROOTS<br>
+       
+        <br>
+        2014年 Sense of Living by Leh exhibition<br>
+        @カワウソ<br>
         <br>
 
-        2020年　LEH 「LEH×GARDEN Osaka + GARDEN Shibuya」Spring and Summer Collection Exhibition<br>
-        ＠GARDEN /Tokyo /Osaka <br>
+		2014年 LEH 2015 Spring/Summer<br>
+		「Free Tibet×Free Japan×Free Fashion」<br>
         <br>
+
+		2015年　Sense of Living by Leh exhibition <br>
+		@Gallery TOM<br>
+		<br>
+
+		2015年　LEH 2015-16 Autumun/Winter<br>
+		「MATERIAL OF THE EARTH」<br>
+		<br>
+		2015年　LEH 2016 Spring/Summer<br>
+		「THE ETHIOPIAN DANDYISM」<br>
+		<br>
+		2016年　LEH 2016-17 Autumun/Winter 「outsider +民族-8月」<br>
+		<br>
         
-        2020年　LEH 2020-21 Autumn and Winter Collection Exhibition 「Romantic」<br><br>
-        
-        2020年　LEH 2021 Spring and Summer Collection Exhibition 「服食人種」<br>
-        @tentplant　(東京/渋谷) <br>
-        <br>
-		2021年　SENSE OF LIVING by Leh「tabino kakera ten」Exhibition with Party <br>
-		@Cream (東京/下北沢）
+		2017年　LEH 2017 Spring/Summer「"Protection"」<br>
 		<br>
-		<br>
-		2022年　LEH 2022 Spring and Summer Collection Exhibition「LONELY PLANET」<br>
-		@KATA (東京/恵比寿）
-		<br>
-		<br>
-		2022年　LEH 2022-23 autumn and Winter Collection Exhibition「My Your Religion」<br>
-		@KATA (東京/恵比寿）
-		<br>
+
+		2017年　Sense Of Living by Leh<br>
+		EXHIBITION and PARTY<br>
+		LIVE: 内田コーヘイトリオ<br>
+		DJ :JUZU a.k.a MOOCHY<br>
+		@吾亦紅 WARE-mo-KOU<br>
+		<br>        
+
+		2017年　LEH 2017-18 Autumun/Winter<br>
+		「SCENE OF THE DAY」<br>
+		<br>        
+
+		2017年　Sense Of Living by Leh
+
+EXHIBITION and PARTY<br>
+LIVE :中納良恵(EGO-WRAPPIN')<br>
+光風×karamushi<br>
+DJ :原島'ど真ん中'宙芳　<br>
+@Gallery TOM　<br>
+<br>
+2017年　LEH 2018 Spring/Summer<br>
+「BORN TO BE BLUE」<br>
+<br>
+2018年　LEH　Leh2018-19 Autumun/Winter<br>
+<br>
+「PRIZE FIGHT」
+<br><br>
+2019年　LEH 2019 Spring/Winter<br>
+「８ Million」<br><br>
+
+2019年　LEH 2019-20 Autumun/Winter<br>
+「THE CUT-UPS」<br><br>
+
+2019年　LEH Presents「BEAT ZOKU」Party　<br>
+Live :光風 Cutsigh AOTA<br>
+DJ :原島'ど真ん中'宙芳　澤村泰介(吾亦紅)<br>
+安田弾(solfa.BATICA)8810(ROOTS)<br>
+@BATICA<br><br>
+
+2020年　LEH 2021 Spring/Summer<br>
+「THE POP-STAR」<br>
+<br><br>
+
+2020年 「LEH×GARDEN Osaka + GARDEN Shibuya」Spring/Summer Collection Exhibition<br>
+＠GARDEN /Tokyo /Osaka<br>
+<br>
+2020年　LEH 2020-21 Autumn/Winter 「Romantic」<br>
+<br>
+2020年　LEH 2021 Spring/Summer<br>
+「服食人種」<br><br>
+
+2021年　Sense Of Living by Leh<br>
+「tabino kakera ten」Exhibition with Party<br>
+Live :仙人掌　山川冬樹 Cutsigh<br>
+DJ :原島'ど真ん中'宙芳　SUIMIN<br>
+@Cream<br><br>
+
+2022年　LEH 2022 Spring/Summer<br>
+「LONELY PLANET」<br>
+<br>
+2022年　LEH 2022-23 Autumn/Winter<br>
+「My Your Religion」<br><br>
+
+2023年　LEH 2023 Spring/Summer<br>
+「The Third Mind」<br>
 		
 		</div>
 		
@@ -265,8 +221,8 @@
 <!--FOOTERここから-->
 
     <div id="footer">
-        Copyright (C) All Rights Reserved by Leh.<br />
-        <span class="company_name"><a href="../../index.html">www.leh.jp</a></span><br /><br />
+        Copyright (C) All Rights Reserved by Leh.<br>
+        <span class="company_name"><a href="../../index.html">www.leh.jp</a></span><br><br>
 		<a href="mailto:info@leh.jp"><img src="img/mail.jpg" alt="LEHにメール" width="18" height="12" border="0" /></a>
     </div>
 
