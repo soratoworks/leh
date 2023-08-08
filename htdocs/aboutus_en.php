@@ -200,7 +200,10 @@
 		"My Your Religion"<br><br>
 
 		2023 LEH 2023 Spring/Summer<br>
-		"The Third Mind"
+		"The Third Mind"<br><br>
+
+		2023 LEH 2023-24 Autumn/Winter Collection Exhibition<br>
+		"MONSTERS"</div></div>
 		</div>
 		</div>
 		
