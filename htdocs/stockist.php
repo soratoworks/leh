@@ -147,29 +147,12 @@
 </a>
 </div>
 
-<!-- YURAGI  -->
-<div class="stockist_content_text">
-<a href="https://goo.gl/maps/Qxaw1uxkp6YsEDAJA">
-<h3 class="shopname">YURAGI</h3>
-<p class="shopinfo">29-4 Wakadocho Hirosaki-shi Aomori 036-8333 Japan / TEL. 0172-88-8924</p>
-</a>
-</div>
-
-
 <!--  Heg  -->
 <div class="stockist_content_text">
 
 <h3 class="shopname">Heg</h3>
 <p class="shopinfo">
 <a href="https://www.hegood.jp/">https://www.hegood.jp/</a></p>
-</div>
-
-<!--  SAIZ  -->
-<div class="stockist_content_text">
-<a href="https://goo.gl/maps/AwizNBSyz75CnUfa7">
-<h3 class="shopname">SAIZ</h3>
-<p class="shopinfo">Nishiide Oizumi-Cho Hokuto-Shi Yamanashi 409-1501 Japan / TEL.0551-45-6496</p>
-</a>
 </div>
 
 <!--  OVIE STUDIO  -->
@@ -227,19 +210,11 @@
 </a>
 </div>
 
-<!--  OPENER  -->
+<!--  VASS  -->
 <div class="stockist_content_text">
-<a href="https://goo.gl/maps/tz39T6sAzKkK8rGA7">
-<h3 class="shopname">OPENER</h3>
-<p class="shopinfo">1st floor 663-8 Sinsa-dong Gangnam-gu Seoul  /  +82-2-456-9854</p>
-</a>
-</div>	
-
-<!--  Plasticbanana  -->
-<div class="stockist_content_text">
-<a href="https://goo.gl/maps/DLoHqGQ2ae3KA3bD6">
-<h3 class="shopname">Plasticbanana</h3>
-<p class="shopinfo">41 Noksapyeong-daero 40-gil Yongsan-gu Seoul Korea  /  TEL.+82-10-4591-2161</p>
+<a href="https://goo.gl/maps/BtogN9QFGwoM6Lp99">
+<h3 class="shopname">VASS </h3>
+<p class="shopinfo">3-18, Dongmak-ro, Mapo-gu, Seoul / TEL +82 010-5275-27420</p>
 </a>
 </div>
 
