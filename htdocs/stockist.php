@@ -115,14 +115,6 @@
 </a>
 </div>
 
-<!-- interest  -->
-<div class="stockist_content_text">
-<a href="https://www.google.co.jp/maps/place/%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%AC%E3%82%B9%E3%83%88/@35.7018359,139.7377571,592m/data=!3m1!1e3!4m13!1m7!3m6!1s0x60188c5a6bf4f33b:0x3a6722f2bbafbbf5!2z44CSMTYyLTA4Mjgg5p2x5Lqs6YO95paw5a6_5Yy66KKL55S677yS!3b1!8m2!3d35.7016375!4d139.7386264!3m4!1s0x60188c5a6bb84a69:0xbac35bd85718c07a!8m2!3d35.7015377!4d139.7386258?hl=ja">
-<h3 class="shopname">interest</h3>
-<p class="shopinfo">Suzuki Bldg 1-A 2 Fukuromachi Shinjuku-ku Tokyo 162-0828 Japan / TEL.03-6457-5360</p>
-</a>
-</div>
-
 <!-- SHELTER  -->
 <div class="stockist_content_text">
 <a href="https://goo.gl/maps/XQWqzbtCXMYkysY39">
@@ -171,6 +163,13 @@
 </a>
 </div>	
 
+<!--  PALETTE art alive  -->
+<div class="stockist_content_text">
+<a href="https://goo.gl/maps/ZRq6JqKE7gAF86Y7A">
+<p class="shopinfo">2-2-45 Akasaka, Chuo-ku, Fukuoka-shi, Fukuoka / TEL.092-707-0965</p>
+</a>
+</div>	
+
 <!--  Trevena Glen Farm  -->
 <div class="stockist_content_text">
 <a href="https://www.google.com/maps/place/%E6%97%A5%E6%9C%AC,+%E3%80%92650-0012+%E5%85%B5%E5%BA%AB%E7%9C%8C%E7%A5%9E%E6%88%B8%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%8C%97%E9%95%B7%E7%8B%AD%E9%80%9A%EF%BC%93%E4%B8%81%E7%9B%AE%EF%BC%91%EF%BC%91%E2%88%92%EF%BC%91%EF%BC%91/@34.691768,135.188732,14z/data=!4m2!3m1!1s0x60008ee2e8e4444d:0xf5253512dfe3fb3d?hl=ja">
@@ -207,14 +206,6 @@
 <div class="stockist_content_text">
 <a href="https://goo.gl/maps/hE4jL1C6LymUbRoMA">
 <p class="shopinfo">Shop 133 K11 MUSEA 18 Salisbury Road Tsim Sha Tsui Kowloon Hong Kong  /  TEL.+852-9717-0757</p>
-</a>
-</div>
-
-<!--  VASS  -->
-<div class="stockist_content_text">
-<a href="https://goo.gl/maps/BtogN9QFGwoM6Lp99">
-<h3 class="shopname">VASS </h3>
-<p class="shopinfo">3-18, Dongmak-ro, Mapo-gu, Seoul / TEL +82 010-5275-27420</p>
 </a>
 </div>
 
