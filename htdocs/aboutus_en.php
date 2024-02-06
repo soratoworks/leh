@@ -194,7 +194,7 @@
 		@Cream<br><br>
 
 		2022 LEH 2022 Spring/Summer<br>
-		"LONELY PLANET"<br>
+		"LONELY PLANET"<br><br>
 
 		2022 LEH 2022-23 Autumn/Winter<br>
 		"My Your Religion"<br><br>
@@ -203,7 +203,11 @@
 		"The Third Mind"<br><br>
 
 		2023 LEH 2023-24 Autumn/Winter Collection Exhibition<br>
-		"MONSTERS"</div></div>
+		"MONSTERS"<br><br>
+	
+		2023 LEH 2024 Spring/Summer Collection Exhibition<br>
+		"Moon City Light"<br><br>
+</div></div>
 		</div>
 		</div>
 		
