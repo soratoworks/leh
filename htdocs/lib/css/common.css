@@ -1,0 +1,409 @@
+@charset "utf-8";
+
+/* =======================================
+
+	CommonElements
+
+======================================= */
+body {
+	font-size: 100%;
+	line-height: 140%;
+	/*font-family: Arial,Helvetica,sans-serif;*/
+    font-family:'ＭＳ Ｐゴシック',Arial,"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS P Gothic", san-serif;
+	color: #000;
+	text-align: center;
+	background: #fff;
+	overflow-x: hidden;
+}
+
+a:link { text-decoration:none; color: #000;}
+a:visited { text-decoration:none; color: #000;}
+a:active { text-decoration:none; color: #000;}
+a:hover { text-decoration:none; color: #000;}
+
+h1 {
+	margin-bottom: 20px;
+	padding: 10px 0;
+	background: #000;
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+}
+h2 {
+	padding: 30px 0;
+	font-size: 12px;
+}
+
+h2.journal_info {
+  padding: 12px 0;
+  font-size: 20px;
+  margin: 0px;
+}
+
+h2.journal_event{
+  text-align: left;
+  margin: 30px 0 0 0;
+}
+
+#container {
+	width: 100%;
+	text-align: center;
+}
+
+#wrap {
+	width:960px;
+	margin:0px auto;
+}
+
+/* =======================================
+
+	GlobalNavigation
+
+======================================= */
+
+header{
+	display: none;
+}
+
+#gnav-top {
+	position:fixed;
+	left:60px;
+	top:40px;
+	z-index:100;
+}
+
+
+#gnav-top ul li {
+	text-align:left;
+	margin:0 0 20px 0;
+  padding-left: 0rem;
+  font-size: 0.7rem;
+  color: #333;
+  }
+    
+
+#gnav-top ul li#top_info {
+	margin:80px 0 0 0;
+	width:250px;
+	text-align:left;
+	font-size:10px;
+}
+
+
+
+#gnav-aboutus {
+	position:fixed;
+	left:48px;
+	top:0px;
+	z-index:100;
+}
+
+
+/* =======================================
+
+	Footer
+
+======================================= */
+
+#footer {
+	margin-top: 30px;
+	text-align: center;
+	font-size: 10px;
+	color: #666666;
+	line-height: 160%;
+}
+
+#footer a.news {
+    font-weight:bold;
+	font-size: 12px;
+	color: #fd5d60;
+ }
+
+.company_name {
+	font-size: 14px;
+}
+
+
+
+nav {
+    display: block;
+    position: fixed;
+    top: 0;
+     bottom: 0;
+    width: 300px;
+    background: #ffffff;
+      -webkit-overflow-scrolling: touch;
+    transition: all .5s;
+    z-index: 52;
+  }
+  .open nav {
+    left: 0;
+    opacity: 1;
+  }
+  nav .inner {
+    padding: 25px;
+  }
+  nav .inner ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  nav .inner ul li {
+    position: relative;
+    margin: 0;
+    border-bottom: 1px solid #333;
+    text-align: left;
+  }
+  nav .inner ul li a {
+    display: block;
+    color: #333;
+    font-size: 14px;
+    padding: 1em;
+    text-decoration: none;
+    transition-duration: 0.2s;
+  }
+  nav .inner ul li a:hover {
+    background: #e4e4e4;
+  }
+
+  /*========= モーダル表示のためのCSS ===============*/
+
+/*全て共通：hideエリアをはじめは非表示*/
+.hide-area{
+  display: none;
+}
+
+/*全て共通：モーダルのボタンの色を変更したい場合*/
+.modaal-close:after, 
+.modaal-close:before{
+  background:#ccc;  
+}
+
+.modaal-close:focus:after,
+.modaal-close:focus:before,
+.modaal-close:hover:after,
+.modaal-close:hover:before{
+  background:#666;
+}
+
+/*確認を促すモーダル：タイトルの色を変更したい場合*/
+#modaal-title{
+  font-size:1.2rem;
+  text-align: center;
+  margin: 0 0 20px 0;
+}
+
+/*動画表示のモーダル：余白を変更したい場合*/
+.modaal-video .modaal-inner-wrapper{
+  padding:0;
+}
+
+/*以下はコンテンツ内のレイアウト*/
+.info-list dl,
+.gallery-list{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  text-align: center;
+}
+
+.gallery-list img{
+  width: 70%;
+  margin-bottom:10px;
+}
+
+.info-list dt{
+  margin:0 10px 0 0;
+}
+
+.gallery-list li{
+  margin:0 10px 0 0;
+}
+
+
+
+/*========= レイアウトのためのCSS ===============*/
+
+header{
+  background: #333;
+}
+
+header h1{
+  font-size:1.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 20px;
+  color: #fff;
+}
+
+h2{
+  font-size:1.2rem;
+  text-align: center;
+  margin: 0 0 30px 0;
+}
+
+ul{
+  list-style: none;
+}
+
+p,ul{
+  margin-top:0px;  
+}
+
+a{
+  color:#333;
+}
+
+small{
+  background:#333;
+  color:#fff;
+  display: block;
+  text-align: center;
+  padding:20px;
+}
+
+
+section{
+  padding:30px;
+}
+
+
+
+
+  @media screen and (max-width: 900px) {
+	#gnav-top {
+		display: none;
+	}
+
+    header {
+		display: block;
+		height:60px;
+		z-index: 51;
+		background-color: #ffffff;
+	  }
+	
+	.menulogo{
+		margin-top: 5px;
+		width: 90px;
+	}
+	nav {
+		left: -220px;
+		width: 220px;
+	  }
+
+  h2.journal_info{
+    margin: 0px;
+  }
+
+/*============
+  memo.php
+  =============*/
+    h2.journal_info{
+      font-size: 1.8em;
+    }
+	  
+  }
+  /*============
+  .toggle_btn
+  =============*/
+  .toggle_btn {
+    display: block;
+    position: fixed;
+    top: 16px;
+    right: 30px;
+    width: 30px;
+    height: 30px;
+    transition: all .5s;
+    cursor: pointer;
+    z-index: 51;
+  }
+  .toggle_btn span {
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 30px;
+    height: 2px;
+    background-color: #333;
+    border-radius: 4px;
+    transition: all .5s;
+  }
+  .toggle_btn span:nth-child(1) {
+    top: 4px;
+  }
+  .toggle_btn span:nth-child(2) {
+    top: 14px;
+  }
+  .toggle_btn span:nth-child(3) {
+    bottom: 4px;
+  }
+  .open .toggle_btn span {
+    background-color: #fff;
+  }
+  .open .toggle_btn span:nth-child(1) {
+    -webkit-transform: translateY(10px) rotate(-315deg);
+    transform: translateY(10px) rotate(-315deg);
+  }
+  .open .toggle_btn span:nth-child(2) {
+    opacity: 0;
+  }
+  .open .toggle_btn span:nth-child(3) {
+    -webkit-transform: translateY(-10px) rotate(315deg);
+    transform: translateY(-10px) rotate(315deg);
+  }
+  /*============
+  #mask
+  =============*/
+  #mask {
+    display: none;
+    transition: all .5s;
+  }
+  .open #mask {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: .8;
+    z-index: 51;
+    cursor: pointer;
+  }
+  /*============
+  main
+  =============*/
+  main {
+    padding: 50px;
+  }
+  main h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-align: center;
+  }
+  /*============
+  body
+  =============*/
+  body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+  }
+
+
+
+
+  /* モバイルで消えるようにする　*/
+@media (max-width: 480px){
+
+header {
+	width: 100%;
+	height:60px;
+	z-index: 51;
+	background-color: #ffffff;
+  }
+
+.menulogo{
+	margin-top: 5px;
+	width: 90px;
+}
+}
