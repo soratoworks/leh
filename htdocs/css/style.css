@@ -69,6 +69,7 @@ nav {
     background: #e4e4e4;
   }
 
+
   @media screen and (max-width: 767px) {
     nav {
       left: -220px;
