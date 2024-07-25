@@ -94,7 +94,40 @@ var $elem = $('.js-image-switch');
 </head>
 
 <body>
-
+	<div id="container">
+		<header>
+		  <span><a href="../../index.html"><img class="menulogo" src="../../lib/img/menu/head_logo.png"></a></span>
+		  <div id="navArea">
+	  
+			<nav>
+			  <div class="inner">
+				<ul>
+				  <li><a href="../../index.html">TOP</a></li>
+				  <li><a href="../../collection.php">COLLECTION</a></li>
+				  <li><a href="../../memo.php">JOURNAL&INFO</a></li>
+				  <li><a href="../../silence.php">SILENCE</a></li>
+				  <li><a href="../../stockist.php">STOCKIST</a></li>
+				  <li><a href="../../senseofliving.php">SENSE OF LIVING</a></li>
+				  <li><a href="../../aboutus_en.php">ABOUT US</a></li>
+				  <li><a href="../../movie.php">MOVIE</a></li>
+				  <li><a href="http://blog.leh.jp/" target="_blank">NOTE</a></li>
+				  <li><a href="https://leh.handcrafted.jp/" target="_blank">ONLINESTORE</a></li>
+				  <li class="instagram"><a href="https://instagram.com/leh__official/" target="_blank"><img src="../../lib/img/com/leh_instagram.png" alt="INSTAGRAM" /></a></li>
+				  </ul>
+			  </div>
+			  </nav>
+		  
+			<div class="toggle_btn">
+			  <span></span>
+			  <span></span>
+			  <span></span>
+			</div>
+		  
+			<div id="mask"></div>
+		  
+		  </div>
+		</header>
+	  </div>
 <div id="container">
 <div class="main clearfix">
 
@@ -326,35 +359,44 @@ font-size: 8px;
 
 
 
+<!--FOOTERここから-->
+<style type="text/css">
+#menu_collection {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    text-align: center;
+    height: 30px;
+    /* white-space: nowrap; */
+}
+#menu_collection ul {
+  display: flex;
+    justify-content: center;
+    margin-bottom: 0.3rem;
+}
+#menu_collection a{
+border-right: 1px solid;
+    font-size: 13px;
+    padding: 0 0.75em;
+    color: #000000;
+    text-decoration: none;
+}
+</style>
 <div id="menu_collection">
-<ul class="sp_menu">
-		<li id="menu1"><a href="../../index.html">TOP</a></li>
-		<li id="menu2"><a href="../../collection.php">COLLECTION</a></li>
-		<li id="menu3"><a href="../../memo.php">JOURNAL&INFO</a></li>
-		<li id="menu4"><a href="../../stockist.php">STOCKIST</a></li>
-		<li id="menu5"><a href="../../senseofliving.php">SENSE OF LIVING</a></li>
-		<li id="menu6"><a href="../../aboutus_en.php">ABOUT US</a></li>
-		<li id="menu7"><a href="../../movie.php">MOVIE</a></li>
-		<li id="menu8"><a href="http://blog.leh.jp/" target="_blank">NOTE</a></li>
-		<li id="menu9"><a href="https://instagram.com/leh__official/" target="_blank"><img src="../../lib/img/com/leh_instagram.png" alt="INSTAGRAM"></a></li>	
-</ul>	
-<div id="globalnavi">
+	<div>
 	<ul>
-		<li id="menu1"><a href="../../index.html">TOP</a></li>
-		<li id="menu2"><a href="../../collection.php">COLLECTION</a></li>
-		<li id="menu3"><a href="../../memo.php">JOURNAL&INFO</a></li>
-		<li id="menu4"><a href="../../stockist.php">STOCKIST</a></li>
-		<li id="menu5"><a href="../../senseofliving.php">SENSE OF LIVING</a></li>
-		<li id="menu6"><a href="../../aboutus_en.php">ABOUT US</a></li>
-		<li id="menu7"><a href="../../movie.php">MOVIE</a></li>
-		<li id="menu8"><a href="http://blog.leh.jp/" target="_blank">NOTE</a></li>
-		<li id="menu9"><a href="https://instagram.com/leh__official/" target="_blank">INSTAGRAM</a></li>
+		<li><a href="../../index.html">TOP</a></li>
+		<li><a href="../../collection.php">COLLECTION</a></li>
+		<li><a href="../../memo.php">JOURNAL&INFO</a></li>
+    	<li><a href="../../silence.php">SILENCE</a></li>
+		<li><a href="../../stockist.php">STOCKIST</a></li>
+		<li><a href="../../senseofliving.php">SENSE OF LIVING</a></li>
+		<li><a href="../../aboutus_en.php">ABOUT US</a></li>
+		<li><a href="../../movie.php">MOVIE</a></li>
+		<li><a href="http://blog.leh.jp/" target="_blank">NOTE</a></li>
 	</ul>
 </div>
+
 </div>
-
-
-<!--FOOTERここから-->
 
     <div id="footer">
 		now&nbsp;on&nbsp;sale<br />
@@ -366,6 +408,6 @@ font-size: 8px;
 
 <!--FOOTERここまで-->
 </div>
-
+<script type="text/javascript" src="../../js/menu.js"></script>  
 </body>
 </html>
