@@ -207,6 +207,9 @@
 	
 		2023 LEH 2024 Spring/Summer Collection Exhibition<br>
 		"Moon City Light"<br><br>
+
+		2024 LEH 24-25 Autumn/Winter Collection Exhibition<br>
+		"4 VISIONS"<br><br>
 </div></div>
 		</div>
 		</div>

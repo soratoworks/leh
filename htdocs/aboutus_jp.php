@@ -221,6 +221,9 @@ DJ :原島'ど真ん中'宙芳　SUIMIN<br>
 
 2023年 LEH 2024 Spring/Summer Collection Exhibition<br>
 「Moon City Light」<br><br>
+
+2024年 LEH 2024-25 Autumn/Winter Collection Exhibition<br>
+「4 VISIONS 」<br><br>
 </div>
 		
 		

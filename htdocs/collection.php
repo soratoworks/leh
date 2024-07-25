@@ -73,8 +73,8 @@
 <!--<a href="collection/22ss/index.html" class="imghover_collection">
 	<img src="lib/img/collection/22ss/ent_22ss.jpg" alt="2022 spring / summer" width="759" border="0" />-->
 
-<a href="collection/24ss/index.html" class="imghover_collection">
-	<img src="lib/img/collection/24ss/ent_24ss.jpg" alt="2024 spring / summer" width="759" border="0" />
+<a href="collection/24aw/index.html" class="imghover_collection">
+	<img src="lib/img/collection/24aw/ent_24aw.jpg" alt="2024 Autumn / Winter" width="759" border="0" />
 
 </a>
 
@@ -89,6 +89,15 @@
 				<!--<img src="images/collection/collection_line.gif" alt="過去のコレクション" />-->
 				<h3 class="head-border">Conventional collection</h3>
 			</div>
+			<div class="collection_img_01_past">
+            	<a href="collection/24ss/index.html" class="imghover_collection">
+            	<img src="lib/img/collection/24ss/ent_24ss.jpg" alt="2024 spring / summer" height="130" border="0" />
+				</a>
+				<br />
+				<P>24 S/S</P>
+			</div>
+
+
             <div class="collection_img_01_past">
             	<a href="collection/23aw/index.html" class="imghover_collection">
             	<img src="lib/img/collection/23aw/ent_23aw.jpg" alt="2023 Autumn / Winter" height="130" border="0" />

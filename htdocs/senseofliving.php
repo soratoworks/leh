@@ -84,7 +84,6 @@
       <div><img src="lib/img/senseofliving/202101/002.jpg" class="img-mb-20" alt="" /></div>
       <div><img src="lib/img/senseofliving/202101/003.jpg" class="img-mb-20" alt="" /></div>
       <div><img src="lib/img/senseofliving/202101/004.jpg" class="img-mb-20" alt="" /></div>
-      <div><img src="lib/img/senseofliving/202101/005.jpg" class="img-mb-20" alt="" /></div>
       <div><img src="lib/img/senseofliving/202101/006.jpg" class="img-mb-20" alt="" /></div>
       <div><img src="lib/img/senseofliving/202101/007.jpg" class="img-mb-20" alt="" /></div>
 	
@@ -112,7 +111,6 @@
 
       <div><img src="lib/img/senseofliving/2017INDIA_AFRICA_132.jpg" alt="" /></div>
       <div><img src="lib/img/senseofliving/2017INDIA_AFRICA_34.jpg" class="img-mb-20" alt="" /></div>
-      <div><img src="lib/img/senseofliving/2017INDIA_AFRICA_111.jpg" class="img-mb-20" alt="" /></div>
       <div><img src="lib/img/senseofliving/2017INDIA_AFRICA_52.jpg" class="img-mb-20" alt="" /></div>
       <div><img src="lib/img/senseofliving/2017INDIA_AFRICA_79.jpg" class="img-mb-20" alt="" /></div>
       <div><img src="lib/img/senseofliving/2017INDIA_AFRICA_78.jpg" class="img-mb-20" alt="" /></div>
@@ -121,7 +119,6 @@
       <div><img src="lib/img/senseofliving/2017INDIA_AFRICA_126.jpg" class="img-mb-20" alt="" /></div>
       <div><img src="lib/img/senseofliving/2017INDIA_AFRICA_90.jpg" class="img-mb-20" alt="" /></div>
       <div><img src="lib/img/senseofliving/2017INDIA_AFRICA_88.jpg" class="img-mb-20" alt="" /></div>
-      <div><img src="lib/img/senseofliving/2017INDIA_AFRICA_115.jpg" class="img-mb-20" alt="" /></div>
       <div><img src="lib/img/senseofliving/2017INDIA_AFRICA_98.jpg" class="img-mb-20" alt="" /></div>
       <div><img src="lib/img/senseofliving/2017INDIA_AFRICA_120.jpg" class="img-mb-20" alt="" /></div>
       <div><img src="lib/img/senseofliving/2017INDIA_AFRICA_91.jpg" class="img-mb-20" alt="" /></div>
@@ -146,7 +143,6 @@
       <div><img src="lib/img/senseofliving/sol_22.jpg" alt="" /></div>
       <div><img src="lib/img/senseofliving/201407/sol_17.jpg" alt="" /></div>
       <div><img src="lib/img/senseofliving/sol_13.jpg" alt="" /></div>
-      <div><img src="lib/img/senseofliving/sol_06.jpg" alt="" /></div>
 </div>
 
 </div>

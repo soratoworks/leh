@@ -139,14 +139,6 @@
 </a>
 </div>
 
-<!--  Heg  -->
-<div class="stockist_content_text">
-
-<h3 class="shopname">Heg</h3>
-<p class="shopinfo">
-<a href="https://www.hegood.jp/">https://www.hegood.jp/</a></p>
-</div>
-
 <!--  OVIE STUDIO  -->
 <div class="stockist_content_text">
 <a href="https://goo.gl/maps/qFmVQSuvUVUNWRHT8">
@@ -186,14 +178,6 @@
 </a>
 </div>
 
-<!--  Double Soul 	  -->
-<div class="stockist_content_text">
-<a href="https://goo.gl/maps/tavJvnNvJwRGhiNdA">
-<h3 class="shopname">Double Soul</h3>
-<p class="shopinfo">KRISS BLD. B1 1-1-8 Uomachi Kokurakita-Ku Kitakyushu-Shi Fukuoka 802-0066 Japan. / TEL.093-551-6765</p>
-</a>
-</div>
-
 <!--  OKURA -->
 <div class="stockist_content_text">
 <a href="https://goo.gl/maps/YShbxuEaAw2raRdU8">
@@ -214,6 +198,14 @@
 <a href="https://goo.gl/maps/FYYFWBZQWRnuRtC48">
 <h3 class="shopname">MAILLOT </h3>
 <p class="shopinfo">36B, Oxford St Paddington NSW 2021, Australia / TEL.+61(0)-449-890-070</p>
+</a>
+</div>
+
+<!--  Torties House  -->
+<div class="stockist_content_text">
+<a href="https://maps.app.goo.gl/DwJLfeeyZJGiQcCZ7">
+<h3 class="shopname">Torties House </h3>
+<p class="shopinfo">Guoda City Plaza 1F01-1, 西湖北线 Xia Cheng Qu, Hang Zhou Shi, Zhe Jiang Sheng, China, 310003</p>
 </a>
 </div>
 
