@@ -210,6 +210,13 @@
 
 		2024 LEH 24-25 Autumn/Winter Collection Exhibition<br>
 		"4 VISIONS"<br><br>
+
+		2024 SILENCE 1nd Collection<br><br>
+
+		2024 LEH 2025 Spring/Summer Collection Exhibition<br>
+		"THE UNFINISH AFTER THE WORLD"<br><br>
+
+		2024 SILENCE 2nd Collection<br><br>
 </div></div>
 		</div>
 		</div>

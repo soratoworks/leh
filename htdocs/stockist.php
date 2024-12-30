@@ -139,6 +139,14 @@
 </a>
 </div>
 
+<!-- GANKO  -->
+<div class="stockist_content_text">
+<a href="https://maps.app.goo.gl/xAPEmsZzBLVuoBNt9">
+<h3 class="shopname">GANKO</h3>
+<p class="shopinfo">1017-1 Kamisano, Takasaki-Shi, Gunma 370-0857 Japan</p>
+</a>
+</div>
+
 <!--  OVIE STUDIO  -->
 <div class="stockist_content_text">
 <a href="https://goo.gl/maps/qFmVQSuvUVUNWRHT8">

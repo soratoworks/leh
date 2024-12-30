@@ -1,3 +1,5 @@
-
-RewriteEngine on
-RewriteRule ^silence.php$ /preview_leh/silence/24aw/index.html [R=301,L]
+AddHandler cgi-script htpasswd
+AuthType Basic
+AuthName "Hello leh...Please input IDPW" 
+AuthUserFile "/home/soratoworks/soratoworks.xsrv.jp/public_html/preview_leh/htpasswd/.htpasswd" 
+require valid-user
