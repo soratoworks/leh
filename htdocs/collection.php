@@ -95,7 +95,7 @@
             	<img src="lib/img/collection/24aw/ent_24aw.jpg" alt="2024 Autumn / Winter" height="130" border="0" />
 				</a>
 				<br />
-				<P>24 S/S</P>
+				<P>24 A/W</P>
 			</div>
 
 			<div class="collection_img_01_past">
