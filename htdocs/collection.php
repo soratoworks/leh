@@ -73,8 +73,8 @@
 <!--<a href="collection/22ss/index.html" class="imghover_collection">
 	<img src="lib/img/collection/22ss/ent_22ss.jpg" alt="2022 spring / summer" width="759" border="0" />-->
 
-<a href="collection/25ss/index.html" class="imghover_collection">
-	<img src="collection/25ss/img/leh_25SS_top.png" alt="2025 spring / summer" width="759" border="0" />
+<a href="collection/25aw/index.html" class="imghover_collection">
+	<img src="collection/25aw/img/leh_25AW_top.png" alt="2025 Autumn / Winter" width="759" border="0" />
 
 </a>
 
@@ -90,6 +90,13 @@
 				<h3 class="head-border">Conventional collection</h3>
 			</div>
 
+			<div class="collection_img_01_past">
+            	<a href="collection/25ss/index.html" class="imghover_collection">
+            	<img src="collection/25ss/img/leh_25SS_top.png" alt="2025 spring / summer" height="130" border="0" />
+				</a>
+				<br />
+				<P>25 S/S</P>
+			</div>
 			<div class="collection_img_01_past">
             	<a href="collection/24aw/index.html" class="imghover_collection">
             	<img src="lib/img/collection/24aw/ent_24aw.jpg" alt="2024 Autumn / Winter" height="130" border="0" />

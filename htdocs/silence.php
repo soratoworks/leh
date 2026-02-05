@@ -70,8 +70,8 @@
 
 	<div id="collection_img_this_season2018ss">
 
-<a href="silence/25ss/index.html" class="imghover_collection">
-	<img src="silence/25ss/img/silence_25SS_top.jpg" alt="2025 spring / summer" width="759" border="0" />
+<a href="silence/25aw/index.html" class="imghover_collection">
+	<img src="silence/25aw/img/silence_25AW_top.jpg" alt="2025 spring / summer" width="759" border="0" />
 
 </a>
 
@@ -86,6 +86,14 @@
 				<!--<img src="images/silence/collection_line.gif" alt="過去のコレクション" />-->
 				<h3 class="head-border">Conventional collection</h3>
 			</div>
+			<div class="collection_img_01_past">
+            	<a href="silence/25ss/index.html" class="imghover_collection">
+            	<img src="silence/25ss/img/silence_25SS_top.jpg" alt="2024 Autumn / Winter" height="130" border="0" />
+				</a>
+				<br />
+				<P>25 S/S</P>
+			</div>
+
 			<div class="collection_img_01_past">
             	<a href="silence/24aw/index.html" class="imghover_collection">
             	<img src="silence/24aw/img/silence_24AW_top.jpg" alt="2024 Autumn / Winter" height="130" border="0" />
