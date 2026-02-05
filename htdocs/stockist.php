@@ -149,9 +149,9 @@
 
 <!--  OVIE STUDIO  -->
 <div class="stockist_content_text">
-<a href="https://goo.gl/maps/qFmVQSuvUVUNWRHT8">
+<a href="https://maps.app.goo.gl/Pu2CmBrvNCFrxo697">
 <h3 class="shopname">OVIE STUDIO</h3>
-<p class="shopinfo">Takeuchi Bldg 3F 2-15-42 Osu Naka-ku Nagoya-shi Aichi 460-0011 Japan / TEL.053-684-7339</p>
+<p class="shopinfo">3-27-14 Chiyoda Naka-Ku Nagoya Aichi 460-0012 Japan  /  TEL.052-684-7269</p>
 </a>
 </div>
 
@@ -175,14 +175,6 @@
 <a href="https://www.google.com/maps/place/%E6%97%A5%E6%9C%AC,+%E3%80%92650-0012+%E5%85%B5%E5%BA%AB%E7%9C%8C%E7%A5%9E%E6%88%B8%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%8C%97%E9%95%B7%E7%8B%AD%E9%80%9A%EF%BC%93%E4%B8%81%E7%9B%AE%EF%BC%91%EF%BC%91%E2%88%92%EF%BC%91%EF%BC%91/@34.691768,135.188732,14z/data=!4m2!3m1!1s0x60008ee2e8e4444d:0xf5253512dfe3fb3d?hl=ja">
 <h3 class="shopname">Trevena Glen Farm</h3>
 <p class="shopinfo">Fukuichi Bldg 1F South 3-11-11 Kitanagasadori Chuo-ku Kobe Hyogo 650-0012 Japan / TEL.078-331-3005</p>
-</a>
-</div>
-
-<!--  Sieni  -->
-<div class="stockist_content_text">
-<a href="https://goo.gl/maps/NdFgJstHnQzZdHPg9">
-<h3 class="shopname">Sieni</h3>
-<p class="shopinfo">KMT Bldg 2F D 2-1-38 Obiyamachi Kochi-Shi Kochi 780-0841 Japan / TEL.088-803-6450</p>
 </a>
 </div>
 

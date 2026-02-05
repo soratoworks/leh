@@ -231,7 +231,13 @@ DJ :原島'ど真ん中'宙芳　SUIMIN<br>
 2024年 LEH 2025 Spring/Summer Collection Exhibition<br>
 「THE UNFINISH AFTER THE WORLD」<br><br>
 
-2024年 SILENCE 2nd Collection
+2024年 SILENCE 2nd Collection<br><br>
+
+2025年 LEH 2025-26 Autumn/Winter Collection Exhibition<br>
+「仏陀東京」<br><br>
+
+2025年 SILENCE 3rd Collection<br>
+「沈黙は美しい」<br><br>
 <br><br>
 </div>
 		

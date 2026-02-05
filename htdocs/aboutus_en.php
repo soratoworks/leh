@@ -217,6 +217,12 @@
 		"THE UNFINISH AFTER THE WORLD"<br><br>
 
 		2024 SILENCE 2nd Collection<br><br>
+
+		2025 LEH 2025-26 Autumn/Winter Collection Exhibition<br>
+		"Buddha Tokyo"<br><br>
+
+		2025 SILENCE 3rd Collection<br>
+		"Silence is Beautiful"<br><br>
 </div></div>
 		</div>
 		</div>
