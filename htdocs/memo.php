@@ -70,11 +70,73 @@
 		<h1 class="head_border">JOURNAL&INFO</h1>
 
 		<div class="content_text">
+<h2 class="journal_info">2025年　'Leh 20 th Anniversary Exhibition At 冬虫夏草'</h2>
+
+<!--画像のモーダル-->
+<ul class="gallery-list"><!--data-groupに同じ名前を入れるとグループ化されて表示-->
+	<li><a href="lib/img/memo/leh_25AW_info2.jpg" class="gallery" data-group="otaru">
+		<img src="lib/img/memo/leh_25AW_info2.jpg" alt=""></a>
+	</li>
+	<li><a href="lib/img/memo/leh_25AW_info2-1.jpg" class="gallery" data-group="otaru">
+		<img src="lib/img/memo/leh_25AW_info2-1.jpg" alt=""></a>
+	</li>
+</ul>
+<br />
+
+<p class="lh25">
+	◯POP UP STORE<br />
+	12/19[Fri] 〜30[Tue]<br />
+	1/4[Sun] 〜18[Sun]<br />
+	15:00〜 23:00<br />
+	水曜定休
+<br />
+◯PARTY<br />
+12/20 [Sat]<br />
+Open 18:00 Start 20:00<br />
+@冬虫夏草 OTARU 〒047-0033 北海道小樽市富岡1丁目14-18 小林ビル1階<br />
+</p>
+		
+</div>
+<div class="content_text">
+<h2 class="journal_info">2025年　'MONSTER SOX LIMITED GOODS STORE'</h2>
+
+<!--画像のモーダル-->
+<ul class="gallery-list"><!--data-groupに同じ名前を入れるとグループ化されて表示-->
+	<li><a href="lib/img/memo/leh_25AW_info.jpg" class="gallery" data-group="">
+		<img src="lib/img/memo/leh_25AW_info.jpg" alt=""></a>
+	</li>
+</ul>
+<br />
+
+<p class="lh25">
+	毎年圧倒的な人気を誇る LEH の定番<br />
+	“MONSTER SOX” 全13色を中心とした LIMITED GOODS STORE を、今年も代官山蔦屋書店アートフロアにて開催いたします。<br />
+	開催期間:2025年12月10日(水)〜12月25日(木)<br />
+	場所:代官山蔦屋書店2号館1Fアートフロア<br />
+	MONSTER SOX は国産素材にこだわった高品質な MADE IN JAPAN で、長時間履いてもストレスがなく、穴が空きにくい優れた耐久性と、季節に寄り添う吸放湿性が魅力です。裏毛をすべて表側にすることで生まれる、もこもことしたボリューム感と独特の可愛らしさも特徴です。
+<br />
+今回は、今年発売されたアームウォーマー型の “MONSTER ARM”（全3色） も販売いたします。そのほか、Orie Ishii とのコラボレーションによる Kaleidoscope Necklace、ネパールで製作した植物由来イタリアン・バイオアセテート素材のハンドメイドサングラス、アジア圏の僧侶が身につける袈裟をベースにした LEH の定番 KESA BAG など、これから迎えるクリスマスにぴったりのアイテムも多数ご用意しております。
+また、今回は特別にパラダイスアレイのクリオ氏によるパンのアートモビール作品が展示を彩ります。またとないこの機会にぜひお立ち寄りください。<br />
+	<br />
+	We are pleased to announce the LIMITED GOODS STORE featuring LEH’s beloved classic<br />
+	“MONSTER SOX” in all 13 colors, held at the Daikanyama Tsutaya Books Art Floor.<br />
+	<br />
+	DATE:2025/12/10〜2025-12/25<br />
+	PLACE:Daikanyama Tsutaya Books, Building 2, 1F Art Floor<br />
+	<br />
+	MONSTER SOX is a high-quality MADE IN JAPAN product made with domestic materials, and is comfortable to wear even after repeated use, has excellent durability that makes it difficult for holes to form, and has moisture absorption and release properties that adapt to the seasons.<br />
+   <br /><br />
+	</p>
+		
+</div>
+
+
+	<div class="content_text">
 <h2 class="journal_info">2024年　'MONSTER SOX LIMITED GOODS STORE'</h2>
 
 <!--画像のモーダル-->
 <ul class="gallery-list"><!--data-groupに同じ名前を入れるとグループ化されて表示-->
-	<li><a href="lib/img/memo/leh_25SS_info.jpg" class="gallery" data-group="garden">
+	<li><a href="lib/img/memo/leh_25SS_info.jpg" class="gallery" data-group="">
 		<img src="lib/img/memo/leh_25SS_info.jpg" alt=""></a>
 	</li>
 </ul>
@@ -85,7 +147,7 @@
 	'MONSTER SOX' 全13色を中心としたLIMITED GOODS STOREを代官山蔦屋書店アートフロアにて開催いたします。 <br />
 	開催期間:2024年12月9日(月)〜12月26日(木)<br />
 	場所:代官山蔦屋書店2号館1Fアートフロア<br />
-	MONSTER SOXは国産素材にこだわった高品質なMADE IN JAPANで、履き続けてもストレスがなく、穴が空きにくい優れた耐久性と、季節に適応する吸放湿性が魅力です。 裏毛をすべて表側にすることで、もこもことしたボリューム感と独特の可愛らしさを演出しています。<br />
+	MONSTER SOXは国産素材にこだわった高品質なMADE IN JAPANで、履き続けてもストレスがなく、穴が空きにくい優れた耐久性と、季節に適応する吸放湿性が魅力です。裏毛をすべて表側にすることで、もこもことしたボリューム感と独特の可愛らしさを演出しています。<br />
 	他にも、インド現地にて選りすぐりをしたAntiqueミラーワークを使用して作成した1点もののKEY RINGやアジア圏の僧呂が身につける袈裟をベースに作成した定番のKESA BAG等、これから迎えるクリスマスにぴったりのLEHのアイテムをご用意させていただきました。<br />
 	また、フェアに合わせた書籍も展開しておりますので、この機会に是非皆様お越しくださいませ。<br />
 	<br />
@@ -98,7 +160,7 @@
 	DATE:2024/12/09〜2024-12/26<br />
 	PLACE:Daikanyama T-Site Building 2, 1st floor art floor<br />
 	<br />
-	MONSTER SOX is a high-quality MADE IN JAPAN product made with domestic materials, and is comfortable to wear even after repeated use, has excellent durability that makes it difficult for holes to form, and has moisture absorption and release properties that adapt to the seasons. <br />
+	MONSTER SOX is a high-quality MADE IN JAPAN product made with domestic materials, and is comfortable to wear even after repeated use, has excellent durability that makes it difficult for holes to form, and has moisture absorption and release properties that adapt to the seasons.<br />
    <br /><br />
 	</p>
 		

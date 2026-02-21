@@ -218,11 +218,26 @@
 
 		2024 SILENCE 2nd Collection<br><br>
 
+		2024 LEH「MONSTER SOX LIMITED GOODS STORE」<br>
+		＠Daikanyama TSUTAYA BOOKS<br><br>
+
 		2025 LEH 2025-26 Autumn/Winter Collection Exhibition<br>
 		"Buddha Tokyo"<br><br>
 
 		2025 SILENCE 3rd Collection<br>
 		"Silence is Beautiful"<br><br>
+
+		2025 LEH 「MONSTER SOX LIMITED GOODS STORE」<br>
+		@Daikanyama TSUTAYA BOOKS<br><br>
+		
+		2025 LEH 「20TH Anniversary Exhibition」<br>
+		@Tochukaso<br><br>
+
+		2026 LEH 2026 Spring/Summer Collection Exhibition<br>
+		"Mula"<br><br>
+
+		2026 SILENCE 4rd Collection<br>
+		"Silence and the sound of rain"<br><br>
 </div></div>
 		</div>
 		</div>

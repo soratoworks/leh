@@ -233,11 +233,26 @@ DJ :原島'ど真ん中'宙芳　SUIMIN<br>
 
 2024年 SILENCE 2nd Collection<br><br>
 
+2024年 LEH「MONSTER SOX LIMITED GOODS STORE」<br>
+＠代官山 蔦屋書店<br><br>
+
 2025年 LEH 2025-26 Autumn/Winter Collection Exhibition<br>
 「仏陀東京」<br><br>
 
 2025年 SILENCE 3rd Collection<br>
 「沈黙は美しい」<br><br>
+
+2025年 LEH 「MONSTER SOX LIMITED GOODS STORE」<br>
+@代官山 蔦屋書店<br><br>
+
+2025年 LEH 「20TH Anniversary Exhibition」<br>
+@冬虫夏草<br><br>
+
+2026年 LEH 2026 Spring/Summer Collection Exhibition<br>
+「Mula」<br><br>
+
+2026年 SILENCE 4rd Collection<br>
+「沈黙と雨音」<br><br>
 <br><br>
 </div>
 		
