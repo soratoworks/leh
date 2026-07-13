@@ -1,0 +1,43 @@
+name: Deploy preview (XServer)
+
+# preview（XServer soratoworks.xsrv.jp/preview_leh/）へ自動デプロイ。
+# master への push で自動起動。手動でも回せる（Actions画面の Run workflow）。
+# ※本番（lolipop）は別ワークフローで手動のみにする予定。
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+jobs:
+  deploy-preview:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: FTP Deploy to preview
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ftps          # XServer は明示FTPS対応。もし繋がらなければ ftp に変更
+          port: 21
+          # ローカルの htdocs/ の中身を preview_leh/ へ同期（変更ファイルのみ）
+          local-dir: ./htdocs/
+          # ↓ FTPアカウントのホーム基準のパス。XServerのFTPは /home/soratoworks/ がルート想定。
+          #    もし階層が違ったらここだけ直す。
+          server-dir: soratoworks.xsrv.jp/public_html/preview_leh/
+          # サーバー側の認証・htaccess系は絶対に上書きしない（事故防止）
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/.DS_Store
+            **/._*
+            **/.htaccess
+            _.htaccess
+            prd.htaccess.txt
+            htpasswd/**
+            .github/**
+            README*

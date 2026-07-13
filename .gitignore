@@ -1,0 +1,6 @@
+# macOS
+.DS_Store
+._*
+
+# FTP deploy state (GitHub Actions が管理)
+.ftp-deploy-sync-state.json

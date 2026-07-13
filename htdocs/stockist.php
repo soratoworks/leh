@@ -115,13 +115,14 @@
 </a>
 </div>
 
-<!-- SHELTER  -->
+<!-- SHELTER  2026.5.22に削除
 <div class="stockist_content_text">
 <a href="https://goo.gl/maps/XQWqzbtCXMYkysY39">
 <h3 class="shopname">SHELTER</h3>
 <p class="shopinfo">GO Bldg 1F 2-2-5 Ebisunishi Shibuya-ku Tokyo 150-0021 Japan / TEL.03-3464-9466 </p>
 </a>
 </div>
+-->
 
 <!-- rokuromi  -->
 <div class="stockist_content_text">
@@ -131,13 +132,22 @@
 </a>
 </div>
 
-<!-- SOBO  -->
+<!-- KANKAN DECORA  -->
+<div class="stockist_content_text">
+<a href="https://maps.app.goo.gl/VKWywcw6xUFuc7dt8">
+<h3 class="shopname">KANKAN DECORA</h3>
+<p class="shopinfo">4-3-16 Setagaya, Setagaya-ku, Tokyo 154-0017 Japan / TEL.03-5799-7076</p>
+</a>
+</div>
+
+<!-- SOBO  2026.5.22に削除
 <div class="stockist_content_text">
 <a href="https://www.google.co.jp/maps/place/%E3%80%92060-0062+%E5%8C%97%E6%B5%B7%E9%81%93%E6%9C%AD%E5%B9%8C%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%8D%97%EF%BC%92%E6%9D%A1%E8%A5%BF%EF%BC%91%E4%B8%81%E7%9B%AE%EF%BC%95%E2%88%92%EF%BC%99/@43.0577389,141.356314,20z/data=!4m5!3m4!1s0x5f0b2983a83f710f:0xc41f43f1edec84c9!8m2!3d43.0579214!4d141.3565403">
 <h3 class="shopname">SOBO</h3>
 <p class="shopinfo">Kowa Bldg No.13 2F 5-9West1 South 2 Chuo-ku Sapporo-shi Hokkaido 060-0062 Japan / TEL.011-206-6598</p>
 </a>
 </div>
+-->
 
 <!-- GANKO  -->
 <div class="stockist_content_text">

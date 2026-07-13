@@ -70,8 +70,8 @@
 
 	<div id="collection_img_this_season2018ss">
 
-<a href="silence/26ss/index.html" class="imghover_collection">
-	<img src="silence/26ss/img/silence_26SS_top.jpg" alt="2026 spring / summer" width="759" border="0" />
+<a href="silence/26aw/index.html" class="imghover_collection">
+	<img src="silence/26aw/img/silence_26AW_top.jpg" alt="2026 Autumn / Winter" width="759" border="0" />
 
 </a>
 
@@ -85,6 +85,14 @@
 			<div class="collection_conventional_line">
 				<!--<img src="images/silence/collection_line.gif" alt="過去のコレクション" />-->
 				<h3 class="head-border">Conventional collection</h3>
+			</div>
+
+			<div class="collection_img_01_past">
+            	<a href="silence/26ss/index.html" class="imghover_collection">
+            	<img src="silence/26ss/img/silence_26SS_top.jpg" alt="2026 Spring / Summer" height="130" border="0" />
+				</a>
+				<br />
+				<P>26 S/S</P>
 			</div>
 
 			<div class="collection_img_01_past">
