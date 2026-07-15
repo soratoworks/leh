@@ -39,6 +39,7 @@ DEFAULT_PAGES = [
 ]
 
 IMG_RE = re.compile(r'<img[^>]+src\s*=\s*["\']([^"\']+)["\']', re.I)
+COMMENT_RE = re.compile(r'<!--.*?-->', re.S)  # コメントアウトされた<img>は対象外
 AUTH = "Basic " + base64.b64encode(f"{USER}:{PASS}".encode()).decode() if USER else None
 
 
@@ -67,7 +68,7 @@ def main():
             continue
 
         seen = set()
-        for m in IMG_RE.finditer(html):
+        for m in IMG_RE.finditer(COMMENT_RE.sub("", html)):
             raw = m.group(1).strip()
             if not raw or raw.lower().startswith(("data:",)):
                 continue

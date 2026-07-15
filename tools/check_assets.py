@@ -26,6 +26,7 @@ IMG_EXT = {".jpg", ".jpeg", ".png", ".gif", ".svg", ".webp", ".ico", ".bmp"}
 MANAGED_ROOTS = ("collection", "silence")
 
 REF_RE = re.compile(r'(?:src|href)\s*=\s*["\']([^"\']+)["\']', re.I)
+COMMENT_RE = re.compile(r'<!--.*?-->', re.S)  # コメントアウトされた参照は対象外
 # 末尾の _N / -N は「修正版（例 item1152_1, item1079-1）」として base番号に畳み込む
 NUM_RE = re.compile(r'^(.*?)(\d+)((?:[_-]\d+)*)(\D*)$')
 
@@ -88,7 +89,7 @@ def check_links(pages):
         except Exception:
             continue
         base = os.path.dirname(path)
-        for m in REF_RE.finditer(text):
+        for m in REF_RE.finditer(COMMENT_RE.sub("", text)):
             raw = m.group(1)
             if not is_local(raw):
                 continue
@@ -154,7 +155,7 @@ def img_dirs_for(pages, changed):
         except Exception:
             continue
         base = os.path.dirname(path)
-        for m in REF_RE.finditer(text):
+        for m in REF_RE.finditer(COMMENT_RE.sub("", text)):
             raw = m.group(1)
             if not is_local(raw):
                 continue
