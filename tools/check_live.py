@@ -24,7 +24,7 @@ SSL_CTX = ssl.create_default_context()
 SSL_CTX.check_hostname = False
 SSL_CTX.verify_mode = ssl.CERT_NONE
 
-BASE = os.environ.get("PREVIEW_BASE", "https://soratoworks.xsrv.jp/preview_leh/")
+BASE = os.environ.get("PREVIEW_BASE", "http://soratoworks.xsrv.jp/preview_leh/")
 if not BASE.endswith("/"):
     BASE += "/"
 USER = os.environ.get("PREVIEW_USER", "")

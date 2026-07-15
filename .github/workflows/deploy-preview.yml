@@ -55,7 +55,7 @@ jobs:
       #    Basic認証情報(secrets)が未設定なら自動スキップ。
       - name: Live preview check
         env:
-          PREVIEW_BASE: https://soratoworks.xsrv.jp/preview_leh/
+          PREVIEW_BASE: http://soratoworks.xsrv.jp/preview_leh/   # xsrv初期ドメインはHTTPSが別vhostに飛ぶためHTTP固定
           PREVIEW_USER: ${{ secrets.PREVIEW_USER }}
           PREVIEW_PASS: ${{ secrets.PREVIEW_PASS }}
         run: python3 tools/check_live.py
