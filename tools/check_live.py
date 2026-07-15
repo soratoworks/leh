@@ -14,9 +14,15 @@ Leh サイト ライブチェック（デプロイ後 / preview 実物）
   python3 tools/check_live.py collection.php silence/26aw/index.html   # ページ指定
 終了コード: 表示できない画像が1件でもあれば 1
 """
-import os, sys, re, base64
+import os, sys, re, base64, ssl
 import urllib.request, urllib.error
 from urllib.parse import urljoin, urldefrag, urlparse
+
+# preview は自分の環境（Basic認証付き）。XServer初期ドメイン(*.xsrv.jp)は共有証明書で
+# ホスト名不一致になるため、この自己監視チェックでは証明書検証をスキップする。
+SSL_CTX = ssl.create_default_context()
+SSL_CTX.check_hostname = False
+SSL_CTX.verify_mode = ssl.CERT_NONE
 
 BASE = os.environ.get("PREVIEW_BASE", "https://soratoworks.xsrv.jp/preview_leh/")
 if not BASE.endswith("/"):
@@ -41,7 +47,7 @@ def fetch(url, method="GET"):
     if AUTH:
         req.add_header("Authorization", AUTH)
     req.add_header("User-Agent", "leh-live-check/1.0")
-    return urllib.request.urlopen(req, timeout=30)
+    return urllib.request.urlopen(req, timeout=30, context=SSL_CTX)
 
 
 def main():
