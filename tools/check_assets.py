@@ -26,7 +26,8 @@ IMG_EXT = {".jpg", ".jpeg", ".png", ".gif", ".svg", ".webp", ".ico", ".bmp"}
 MANAGED_ROOTS = ("collection", "silence")
 
 REF_RE = re.compile(r'(?:src|href)\s*=\s*["\']([^"\']+)["\']', re.I)
-NUM_RE = re.compile(r'^(.*?)(\d+)(\D*)$')
+# 末尾の _N / -N は「修正版（例 item1152_1, item1079-1）」として base番号に畳み込む
+NUM_RE = re.compile(r'^(.*?)(\d+)((?:[_-]\d+)*)(\D*)$')
 
 
 def is_local(u):
@@ -122,7 +123,7 @@ def check_sequences(img_dirs):
             m = NUM_RE.match(stem)
             if not m:
                 continue
-            prefix, num, suffix = m.group(1), m.group(2), m.group(3)
+            prefix, num, suffix = m.group(1), m.group(2), m.group(4)  # group(3)=修正版サフィックスは無視
             groups.setdefault((prefix, suffix, ext.lower()), []).append((int(num), len(num)))
         for (prefix, suffix, ext), items in groups.items():
             if len(items) < 3:

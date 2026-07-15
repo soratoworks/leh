@@ -4,3 +4,7 @@
 
 # FTP deploy state (GitHub Actions が管理)
 .ftp-deploy-sync-state.json
+
+# Python
+__pycache__/
+*.pyc
