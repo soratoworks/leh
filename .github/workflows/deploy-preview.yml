@@ -15,6 +15,14 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0          # 変更ファイル検出(git diff)に全履歴が必要
+
+      # ① デプロイ前チェック: 触ったシーズン画像のリンク切れがあれば止める（連番の抜けは警告のみ）
+      - name: Static asset check
+        env:
+          CHECK_BASE: ${{ github.event.before || 'HEAD~1' }}
+        run: python3 tools/check_assets.py
 
       - name: FTP Deploy to preview
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
@@ -40,4 +48,14 @@ jobs:
             prd.htaccess.txt
             htpasswd/**
             .github/**
+            tools/**
             README*
+
+      # ② デプロイ後チェック: preview実物の主要ページで画像が全部表示できるか（今日のサーバー側抜けを捕捉）
+      #    Basic認証情報(secrets)が未設定なら自動スキップ。
+      - name: Live preview check
+        env:
+          PREVIEW_BASE: https://soratoworks.xsrv.jp/preview_leh/
+          PREVIEW_USER: ${{ secrets.PREVIEW_USER }}
+          PREVIEW_PASS: ${{ secrets.PREVIEW_PASS }}
+        run: python3 tools/check_live.py
