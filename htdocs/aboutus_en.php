@@ -238,6 +238,12 @@
 
 		2026 SILENCE 4rd Collection<br>
 		"Silence and the sound of rain"<br><br>
+
+		2026 LEH 2026-27 Autumn/Winter Collection Exhibition<br>
+		"THE BEATLEHS"<br><br>
+
+		2026 SILENCE 5rd Collection<br>
+		"Silence With God"<br><br>
 </div></div>
 		</div>
 		</div>
