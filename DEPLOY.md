@@ -47,7 +47,12 @@
 preview とは**別サーバー（lolipop）**。まだワークフロー未作成。決めた方針:
 
 1. **手動のみ**。push では動かさず、GitHub Actions の `Run workflow`（`workflow_dispatch`）で押した時だけ実行する（別ワークフロー）。
-2. 手段は **FTP**（lolipop 宛て）。認証情報は GitHub Secrets に。
+2. 手段は **FTP**（lolipop 宛て）。認証情報は GitHub Secrets に（preview の `FTP_*` と分けて **`PROD_` 接頭辞**）:
+   - `PROD_FTP_SERVER` … lolipop の FTP サーバー
+   - `PROD_FTP_USERNAME` … FTP ユーザー名
+   - `PROD_FTP_PASSWORD` … FTP パスワード
+   - 取得元: ロリポップ！ユーザー専用ページ →「サーバーの管理・設定」→「FTP・WebDAVアカウント設定」
+   - 本番の server-dir（docロート配下パス）はワークフロー作成時に確定する。
 3. **htaccess の出し分け必須** 🔑
    - 現行 `htdocs/.htaccess` は **preview 用（Basic認証つき）** → 本番へ上げると本番にロックがかかるので**絶対に上げない**。
    - 本番は `htdocs/prd.htaccess.txt`（ドメイン直下用・リダイレクト設定）が正。
