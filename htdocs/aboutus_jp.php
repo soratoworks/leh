@@ -251,13 +251,13 @@ DJ :原島'ど真ん中'宙芳　SUIMIN<br>
 2026年 LEH 2026 Spring/Summer Collection Exhibition<br>
 「Mula」<br><br>
 
-2026年 SILENCE 4rd Collection<br>
+2026年 SILENCE 4th Collection<br>
 「沈黙と雨音」<br><br>
 
 2026年 LEH 2026-27 Autumn/Winter Collection Exhibition<br>
 「THE BEATLEHS」<br><br>
 
-2026年 SILENCE 5rd Collection<br>
+2026年 SILENCE 5th Collection<br>
 「神との沈黙」<br><br>
 <br><br>
 </div>
