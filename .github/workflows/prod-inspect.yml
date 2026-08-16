@@ -1,0 +1,56 @@
+name: PROD inspect (read-only)
+
+# 本番(lolipop)のFTPに接続して構造を確認するだけ。書き込みは一切しない。
+# 手動実行専用。
+
+on:
+  workflow_dispatch:
+
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - name: FTP inspect (read-only)
+        env:
+          H: ${{ secrets.PROD_FTP_SERVER }}
+          U: ${{ secrets.PROD_FTP_USERNAME }}
+          P: ${{ secrets.PROD_FTP_PASSWORD }}
+        run: |
+          python3 - <<'PY'
+          import os, ftplib, ssl
+          host, user, pw = os.environ['H'], os.environ['U'], os.environ['P']
+
+          def connect():
+              try:
+                  ctx = ssl.create_default_context()
+                  ctx.check_hostname = False; ctx.verify_mode = ssl.CERT_NONE
+                  f = ftplib.FTP_TLS(context=ctx)
+                  f.connect(host, 21, timeout=30); f.login(user, pw); f.prot_p()
+                  print("[接続] FTPS OK"); return f
+              except Exception as e:
+                  print("[FTPS失敗]", e, "-> 平FTPで再試行")
+                  f = ftplib.FTP(); f.connect(host, 21, timeout=30); f.login(user, pw)
+                  print("[接続] FTP OK"); return f
+
+          f = connect()
+          print("ログイン直後の場所(PWD):", f.pwd())
+
+          def ls(path):
+              print(f"\n===== {path} =====")
+              try:
+                  lines = []
+                  f.retrlines('LIST ' + path, lines.append)
+                  for l in lines[:80]:
+                      print(" ", l)
+                  if not lines:
+                      print("  (空 or 存在せず)")
+              except Exception as e:
+                  print("  取得不可:", e)
+
+          # ルートと、サイト本体がありそうな候補を覗く（読み取りのみ）
+          for d in ['.', 'collection', 'silence', 'lib', 'lib/img', 'lib/img/top', 'htdocs', 'web', 'public_html']:
+              ls(d)
+
+          try: f.quit()
+          except Exception: pass
+          PY
