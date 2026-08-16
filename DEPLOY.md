@@ -22,6 +22,7 @@
 | `htdocs/silence.php` | ファイル | SILENCE 一覧の導線（昇格/降格） |
 | `htdocs/stockist.php` | ファイル | 取扱店舗リスト。支給Excelの一番右の列（削除/追加/更新）に従って反映 |
 | `htdocs/aboutus_en.php` / `htdocs/aboutus_jp.php` | ファイル | 展示会・イベント履歴を時系列で末尾に追記（日英ペア） |
+| `htdocs/index.html` ＋ `htdocs/lib/img/top/<季>/` | ファイル＋ディレクトリ | トップの写真スライダー(`.wideslider`)。新シーズンの写真(600×600)を `lib/img/top/<季>/` に置き、`index.html` のスライダー**先頭**に `<li><img ...></li>` を追加。古いシーズンは適宜整理（例: 追加分と同数を最古シーズンから削除して総数維持）。`lib/img/top/` は repo 追跡対象なので**画像も git add** する |
 
 命名の注意:
 - コレクション画像は大文字（`leh_26AW_look1.jpg` / `leh_26AW_item1157.jpg`）だが **title 画像だけ小文字**（`leh_26aw_title.png`）のことがある。
