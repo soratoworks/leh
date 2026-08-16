@@ -1,0 +1,26 @@
+name: Deploy PRODUCTION (lolipop)
+
+# 本番(www.leh.jp)への surgical デプロイ。手動実行のみ。
+# 既定は dry_run=true（無変更で対象一覧だけ表示）。実際に上げるときだけ dry_run=false。
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "true=一覧のみ(無変更) / false=実際に本番へアップ"
+        type: boolean
+        default: true
+
+jobs:
+  deploy-prod:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Surgical FTP deploy to production
+        env:
+          PROD_FTP_SERVER: ${{ secrets.PROD_FTP_SERVER }}
+          PROD_FTP_USERNAME: ${{ secrets.PROD_FTP_USERNAME }}
+          PROD_FTP_PASSWORD: ${{ secrets.PROD_FTP_PASSWORD }}
+          DRY: ${{ inputs.dry_run }}
+        run: python3 tools/deploy_prod.py
